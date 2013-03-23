@@ -1,0 +1,28 @@
+#!/bin/zsh
+
+# arguments
+#ICONS_DIR_IN=/usr/share/icons/Faenza
+ls $1 > /dev/null || exit 1
+ICONS_DIR_IN=$1
+# data source
+ls $2 > /dev/null || exit 1
+source $2
+
+folders=(scalable 16x16 22x22 32x32)
+
+cp_icons() {
+for icon_path
+do
+	icon_dir=$(dirname $icon_path)
+	icon_name=$(basename $icon_path)
+	set $folders
+	for folder
+	do
+	cp $ICONS_DIR_IN/$icon_dir/${folder%x*}/${icon_name%.*}.*  $folder/$icon_dir
+	# add modified files
+	git add $folder/$icon_dir
+	done
+done
+}
+cp_icons $ICONS_PATHS
+

@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=()
+
+export ICONS_PATHS
