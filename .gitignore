@@ -4,6 +4,7 @@
 
 *.tmp
 cache/*
+*.cache
 TODO
 archives/*
 screenshots/*
