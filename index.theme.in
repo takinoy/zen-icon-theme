@@ -1,6 +1,6 @@
 [Icon Theme]
-_Name=Tango
-_Comment=Tango Icon Theme
+_Name=Tango-colors
+_Comment=Tango-colors Icon Theme
 Inherits=gnome,crystalsvg
 Example=x-directory-normal
 

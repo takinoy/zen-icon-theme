@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([tango-icon-theme], [0.8.90])
+AC_INIT([tango-colors-icon-theme], [0.1.0])
 AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar])
@@ -24,7 +24,7 @@ AC_SUBST(localedir)
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
 # Define the toplevel path here
-AC_SUBST(themedir, "\${datadir}/icons/Tango")
+AC_SUBST(themedir, "\${datadir}/icons/Tango-colors")
 
 UTILS_REQUIRED=0.8.90
 
@@ -39,7 +39,7 @@ if test "x$have_utils" = "xyes"; then
 else
    AC_MSG_RESULT([no])
    AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
-                 and install tango-icon-theme])
+                 and install tango-colors-icon-theme])
 fi
 
 # Check for convert from ImageMagick to add the 1x1 frame to 22x22 icons
@@ -58,14 +58,14 @@ if test "x$enable_framing" = "xyes"; then
    if test "x$enable_framing" = "xyes"; then
       AC_PATH_PROG(CONVERT, convert)
       if test -z "$CONVERT"; then
-      	 AC_MSG_ERROR([ImageMagick is required to build tango-icon-theme])
+      	 AC_MSG_ERROR([ImageMagick is required to build tango-colors-icon-theme])
       fi
 
       # Add the command line options we need here
       CONVERT="$CONVERT -bordercolor Transparent -border 1x1"
       AC_SUBST(CONVERT)
    else
-      AC_MSG_ERROR([ImageMagick is required to build tango-icon-theme])
+      AC_MSG_ERROR([ImageMagick is required to build tango-colors-icon-theme])
    fi
 fi
 
