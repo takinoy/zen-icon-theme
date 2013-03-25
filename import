@@ -1,28 +1,141 @@
 #!/bin/zsh
 
+unsetopt GLOB_SUBST
+
 # arguments
-#ICONS_DIR_IN=/usr/share/icons/Faenza
-ls $1 > /dev/null || exit 1
-ICONS_DIR_IN=$1
 # data source
-ls $2 > /dev/null || exit 1
-source $2
+PATH_SOURCE=$1
+#ICONS_DIR_IN=/usr/share/icons/Faenza
+ICONS_DIR_IN=$2
+find $2 > /dev/null || exit 1
 
-folders=(scalable 16x16 22x22 32x32)
+icons_paths=''
+case $PATH_SOURCE in
+*'*'*)
+	icons_paths='expr'
+	cd $ICONS_DIR_IN
+	# enable bash completion
+	setopt GLOB_SUBST
+	find $PATH_SOURCE > /dev/null || exit 1
+	ICONS_PATHS=($(find $PATH_SOURCE -type f))
+	cd -
+	###
+	;;
+*.dat)	find $PATH_SOURCE > /dev/null || exit 1
+		source $PATH_SOURCE
+		;;
+*)		ICONS_PATHS=($(echo $1))
+esac
 
-cp_icons() {
-for icon_path
+# sizes
+shift 2
+#default sizes path
+arg1=''; arg2=''
+sizes=(scalable 16x16 22x22 32x32)
+while getopts c:Cf:MPQRS opt
 do
-	icon_dir=$(dirname $icon_path)
-	icon_name=$(basename $icon_path)
-	set $folders
-	for folder
-	do
-	cp $ICONS_DIR_IN/$icon_dir/${folder%x*}/${icon_name%.*}.*  $folder/$icon_dir
-	# add modified files
-	git add $folder/$icon_dir
-	done
+	case $opt in
+	c)	arg1=C; arg2=c ; size_in=($OPTARG);;
+	# convert svg to png
+	C)	arg1=C ;;
+	f)	sizes=($(echo $OPTARG)) ;;
+	P)	sizes=(16x16 22x22 32x32 48x48 64x64 128x128) ;;
+	# git mv instead of copying 
+	M)	arg1=M ;;
+	# make svg icons squared
+	Q)	arg1=Q ;;
+	# reverse path mode
+	R)	arg2=R ;;
+	S)	sizes=(scalable 16x16 22x22 32x32) ;;
+	*)	exit 1 ;;
+	esac
+done
+
+square_svg() {
+# make svg images squared (size: $1)
+w_svg="$(grep -m 1 'width=' $path_dir_in/$icon_name | grep -o '[0-9]*')"
+h_svg="$(grep -m 1 'height=' $path_dir_in/$icon_name | grep -o '[0-9]*')"
+	if [[ $w_svg < $1 ]]
+	then	sed -i "s/width=.*/width=\""$1"\"/" $path_dir_in/$icon_name
+			echo sed -i "s/width=.*/width=\""$1"\"/" $path_dir_in/$icon_name
+	fi
+	if [[ $h_svg < $1 ]]
+	then	sed -i "s/width=.*/height=\""$1"\"/" $path_dir_in/$icon_name
+			echo sed -i "s/width=.*/height=\""$1"\"/" $path_dir_in/$icon_name
+	fi
+}
+
+make_icons() {
+mkdir -p -v $path_dir_out
+icon_name_="${icon_name%.*}"
+
+if ls $ICONS_DIR_IN/$path_dir_in/${icon_name_}.* > /dev/null
+then
+	case $arg1 in
+	Q)	size_="${size%x*}"
+		square_svg	$size_
+		;;
+	C)	icon_name="${icon_name_}.svg"
+		size_="${size%x*}"
+		square_svg	$size_
+		rsvg-convert "$ICONS_DIR_IN/$path_dir_in/$icon_name" -w $size_ -h $size_ -o "$path_dir_out/${icon_name_}.png"
+		#~ echo rsvg-convert "$ICONS_DIR_IN/$path_dir_in/$icon_name" -w $size_  -h $size_-o "$path_dir_out/${icon_name_}.png"
+		icon_name="${icon_name_}.png"
+		;;
+	M)	git mv -f $ICONS_DIR_IN/$path_dir_in/$icon_name $path_dir_out/$icon_name	;;
+	*)	cp $ICONS_DIR_IN/$path_dir_in/"${icon_name_}".*  $path_dir_out
+	esac
+fi
+# add modified files
+git add "$size/$dir_in/$icon_name"
+}
+
+make_path() {
+for path_in
+do
+	icon_name=$(basename $path_in)
+	case $icons_paths in
+	'expr')
+		path_dir_in=$(dirname $path_in)
+		case $arg2 in
+		R)	dir_in=$(dirname $path_dir_in)
+			size_=$(basename $path_dir_in)
+			size="$size_"x"$size_"
+			path_dir_out=$size/$dir_in
+			make_icons $path_dir_in $path_dir_out
+			;;
+		c)
+			dir_in=$(basename $path_dir_in)
+				set $sizes
+				for size
+				do
+				path_dir_out=$size/$dir_in
+				make_icons $path_dir_in $path_dir_out
+				done
+			;;
+		*)
+			size=$(dirname $path_dir_in)
+			dir_in=$(basename $path_dir_in)
+			path_dir_out=$size/$dir_in
+			make_icons $path_dir_in $path_dir_out
+		esac
+		;;
+	*)
+		dir_in=$(dirname $path_in)
+		set $sizes
+		for size
+		do
+			case $arg2 in
+			R) path_dir_in="$dir_in/${size%x*}"	;;
+			c)	path_dir_in="$size_in/$dir_in"	;;
+			*) path_dir_in="$size/$dir_in"
+			esac
+		path_dir_out=$size/$dir_in
+		make_icons $path_dir_in $path_dir_out
+		done
+	esac
 done
 }
-cp_icons $ICONS_PATHS
+make_path $ICONS_PATHS
 
+git status -s

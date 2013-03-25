@@ -8,6 +8,8 @@ name=${pkgname%-*}-dev
 
 # build files
 SUBDIRS=(16x16 22x22 32x32 scalable)
+EXRA_SUBDIRS=(48x48 64x64 128x128)
+
 
 rm -r -f cache/$name
 mkdir cache/$name
@@ -31,10 +33,11 @@ make
 #./recolor.sh -c Br -H -O -p folders_paths $MAIN_DIR $IMAGE_DIR_OUT
 
 cd $IMAGE_DIR_OUT
-patch -p1 < "../tango-icon-theme/rsvg.patch"
-autoreconf -fi
+#patch -p1 < "../tango-icon-theme/rsvg.patch"
+#autoreconf -fi
 #./configure --prefix=/home/cedric/.icons --datarootdir=/home/cedric/.icons --enable-png-creation
-./configure --prefix=/usr
+./configure --prefix=/usr 
 make
 
+sudo rm -r /usr/share/icons/Tango-colors
 sudo make install
