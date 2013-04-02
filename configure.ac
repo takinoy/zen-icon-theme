@@ -82,7 +82,7 @@ if test "x$enable_large_bitmaps" = "xyes"; then
    PKG_CHECK_EXISTS([librsvg-2.0 >= 2.12.3],
                     [enable_large_bitmaps=yes], [enable_large_bitmaps=no])
    if test "x$enable_large_bitmaps" = "xyes"; then
-      svgconvert_prog="rsvg"
+      svgconvert_prog="rsvg-convert"
    else
       svgconvert_prog="ksvgtopng"
    fi

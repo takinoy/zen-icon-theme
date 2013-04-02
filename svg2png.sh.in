@@ -9,12 +9,14 @@ fi
 
 ICONFILE=`basename ${3}`
 ICONNAME=`echo ${ICONFILE} | sed -e "s/.svg//"`
-if test `basename $SVGCONVERT` = "rsvg"; then
+if test `basename $SVGCONVERT` = "rsvg-convert"; then
     OPTIONS="-w ${1} -h ${1}"
+    OUTPUT="-o"
 else
     OPTIONS="${1} ${1}"
+    OUTPUT=""
 fi
 
 echo "${SVGCONVERT} ${OPTIONS} ${3} ${2}/${ICONNAME}.png"
-${SVGCONVERT} ${OPTIONS} ${3} ${2}/${ICONNAME}.png
+${SVGCONVERT} ${OPTIONS} ${3} ${OUTPUT} ${2}/${ICONNAME}.png
 
