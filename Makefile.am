@@ -17,7 +17,10 @@ EXTRA_DIST=				\
 
 # we don't want to install mo files, all translations are already stored
 # in theme files
+# recolor source files
 install-data-local:
+	(cd /usr/local/share/recolor && \
+	./recolor.sh -H -O -p $(abs_builddir)/data/folders.dat $(abs_builddir))
 	$(MAKE) -C po uninstall
 	if [ -h $(DESTDIR)$(themedir) ]; then \
 		rm -f $(DESTDIR)$(themedir); \

@@ -15,9 +15,6 @@ source=(${pkgname}-${pkgver}.tar.gz
 md5sums=()
 
 build() {
-	cd /usr/local/share/recolor
-	# recolor source files
-	./recolor.sh -H -O -p $srcdir/${pkgname}-${pkgver}/data/folders.dat $srcdir/${pkgname}-${pkgver}
 	cd $srcdir/${pkgname}-${pkgver}
     ./autogen.sh
 	#~ # to enable png creation add this option : --enable-png-creation
