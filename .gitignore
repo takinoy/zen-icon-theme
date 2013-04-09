@@ -7,6 +7,12 @@ cache/*
 TODO
 archives/*
 screenshots/*
+configure
+index.theme
+Makefile.in
+draft
+aclocal.m4
+autom4te.cache/
 
 # exception
 !cache/PKGBUILD
