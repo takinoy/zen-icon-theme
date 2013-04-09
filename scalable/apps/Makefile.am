@@ -4,35 +4,7 @@ context = apps
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =						\
-	accessories-calculator.svg			\
-	accessories-character-map.svg			\
-	accessories-text-editor.svg			\
-	help-browser.svg				\
-	internet-group-chat.svg				\
-	internet-mail.svg				\
-	internet-news-reader.svg			\
-	internet-web-browser.svg			\
-	office-calendar.svg				\
-	preferences-desktop-accessibility.svg		\
-	preferences-desktop-assistive-technology.svg	\
-	preferences-desktop-font.svg			\
-	preferences-desktop-keyboard-shortcuts.svg	\
-	preferences-desktop-locale.svg	\
-	preferences-desktop-multimedia.svg	\
-	preferences-desktop-remote-desktop.svg		\
-	preferences-desktop-screensaver.svg		\
-	preferences-desktop-theme.svg			\
-	preferences-desktop-wallpaper.svg		\
-	preferences-system-network-proxy.svg		\
-	preferences-system-session.svg			\
-	preferences-system-windows.svg			\
-	system-file-manager.svg				\
-	system-installer.svg				\
-	system-software-update.svg			\
-	system-users.svg				\
-	utilities-system-monitor.svg			\
-	utilities-terminal.svg
+icons_DATA = $(shell find $(srcdir) -name "*.svg" -type f -printf "%f\n")
 
 EXTRA_DIST =						\
 	$(icons_DATA)

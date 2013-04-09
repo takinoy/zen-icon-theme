@@ -4,17 +4,7 @@ context = places
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =					\
-	folder.icon				\
-	folder.svg				\
-	folder-remote.svg			\
-	folder-saved-search.svg			\
-	network-server.svg			\
-	network-workgroup.svg			\
-	start-here.svg	\
-	user-desktop.svg			\
-	user-home.svg				\
-	user-trash.svg
+icons_DATA = $(shell find $(srcdir) -name "*.svg" -type f -printf "%f\n")
 
 EXTRA_DIST =					\
 	$(icons_DATA)

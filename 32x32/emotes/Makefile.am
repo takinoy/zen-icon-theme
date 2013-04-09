@@ -4,20 +4,7 @@ context = emotes
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =			\
-	face-angel.png		\
-	face-crying.png		\
-	face-devilish.png	\
-	face-glasses.png	\
-	face-grin.png		\
-	face-kiss.png		\
-	face-monkey.png	\
-	face-plain.png		\
-	face-sad.png		\
-	face-smile.png		\
-	face-smile-big.png	\
-	face-surprise.png	\
-	face-wink.png
+icons_DATA = $(shell find $(srcdir) -name "*.png" -type f -printf "%f\n")
 
 EXTRA_DIST =			\
 	$(icons_DATA)

@@ -4,19 +4,7 @@ context = categories
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =				\
-	applications-accessories.svg	\
-	applications-development.svg	\
-	applications-games.svg	\
-	applications-graphics.svg	\
-	applications-internet.svg	\
-	applications-multimedia.svg	\
-	applications-office.svg	\
-	applications-other.svg	\
-	applications-system.svg	\
-	preferences-desktop.svg	\
-	preferences-desktop-peripherals.svg	\
-	preferences-system.svg
+icons_DATA = $(shell find $(srcdir) -name "*.svg" -type f -printf "%f\n")
 
 EXTRA_DIST =				\
 	$(icons_DATA)

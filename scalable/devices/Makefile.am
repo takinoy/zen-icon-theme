@@ -4,27 +4,7 @@ context = devices
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =				\
-	audio-card.svg			\
-	audio-input-microphone.svg	\
-	battery.svg			\
-	camera-photo.svg		\
-	camera-video.svg		\
-	computer.svg			\
-	drive-optical.svg		\
-	drive-harddisk.svg		\
-	drive-removable-media.svg	\
-	input-gaming.svg		\
-	input-keyboard.svg		\
-	input-mouse.svg			\
-	media-optical.svg		\
-	media-floppy.svg		\
-	media-flash.svg			\
-	multimedia-player.svg		\
-	network-wired.svg		\
-	network-wireless.svg		\
-	printer.svg			\
-	video-display.svg
+icons_DATA = $(shell find $(srcdir) -name "*.svg" -type f -printf "%f\n")
 
 EXTRA_DIST =				\
 	$(icons_DATA)

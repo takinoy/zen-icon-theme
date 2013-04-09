@@ -4,19 +4,7 @@ context = categories
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =				\
-	applications-accessories.png	\
-	applications-development.png	\
-	applications-games.png	\
-	applications-graphics.png	\
-	applications-internet.png	\
-	applications-multimedia.png	\
-	applications-office.png	\
-	applications-other.png	\
-	applications-system.png	\
-	preferences-desktop.png	\
-	preferences-desktop-peripherals.png	\
-	preferences-system.png
+icons_DATA = $(shell find $(srcdir) -name "*.png" -type f -printf "%f\n")
 
 EXTRA_DIST =				\
 	$(icons_DATA)

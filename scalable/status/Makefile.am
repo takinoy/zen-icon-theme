@@ -4,44 +4,7 @@ context = status
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =				\
-	audio-volume-high.svg		\
-	audio-volume-low.svg		\
-	audio-volume-medium.svg		\
-	audio-volume-muted.svg		\
-	battery-caution.svg		\
-	dialog-error.svg		\
-	dialog-information.svg		\
-	dialog-warning.svg		\
-	folder-drag-accept.icon		\
-	folder-drag-accept.svg		\
-	folder-open.svg			\
-	folder-visiting.icon		\
-	folder-visiting.svg		\
-	image-loading.svg		\
-	image-missing.svg		\
-	mail-attachment.svg		\
-	network-error.svg		\
-	network-idle.svg		\
-	network-offline.svg		\
-	network-receive.svg		\
-	network-transmit.svg		\
-	network-transmit-receive.svg	\
-	network-wireless-encrypted.svg	\
-	printer-error.svg		\
-	software-update-available.svg	\
-	software-update-urgent.svg	\
-	user-trash-full.svg		\
-	weather-clear.svg		\
-	weather-clear-night.svg		\
-	weather-few-clouds.svg		\
-	weather-few-clouds-night.svg	\
-	weather-overcast.svg		\
-	weather-severe-alert.svg	\
-	weather-showers.svg		\
-	weather-showers-scattered.svg	\
-	weather-snow.svg		\
-	weather-storm.svg
+icons_DATA = $(shell find $(srcdir) -name "*.svg" -type f -printf "%f\n")
 
 EXTRA_DIST =				\
 	$(icons_DATA)
