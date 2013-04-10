@@ -32,10 +32,10 @@ shift 2
 #default sizes path
 arg1=''; arg2=''
 sizes=(scalable 16x16 22x22 32x32)
-while getopts c:Cf:MPQRS opt
+while getopts c:Cf:MPQRSZ opt
 do
 	case $opt in
-	c)	arg1=C; arg2=c ; size_in=($OPTARG);;
+	c)	arg1=C; arg2=c ; size_in=($(echo $OPTARG));;
 	# convert svg to png
 	C)	arg1=C ;;
 	f)	sizes=($(echo $OPTARG)) ;;
@@ -47,6 +47,7 @@ do
 	# reverse path mode
 	R)	arg2=R ;;
 	S)	sizes=(scalable 16x16 22x22 32x32) ;;
+	Z)	arg2=Z ;	sizes=(16x16 22x22 96x96) ;;
 	*)	exit 1 ;;
 	esac
 done
@@ -67,33 +68,34 @@ h_svg="$(grep -m 1 'height=' $path_dir_in/$icon_name | grep -o '[0-9]*')"
 
 make_icons() {
 mkdir -p -v $path_dir_out
-icon_name_="${icon_name%.*}"
+#~ icon_name_="${icon_name%.*}"
+		#~ echo $ICONS_DIR_IN $path_dir_in
 
 if ls $ICONS_DIR_IN/$path_dir_in/${icon_name_}.* > /dev/null
 then
 	case $arg1 in
-	Q)	size_="${size%x*}"
+	Q)	icon_name="${icon_name_}.png"
+		size_="${size%x*}"
 		square_svg	$size_
 		;;
 	C)	icon_name="${icon_name_}.svg"
 		size_="${size%x*}"
-		square_svg	$size_
 		rsvg-convert "$ICONS_DIR_IN/$path_dir_in/$icon_name" -w $size_ -h $size_ -o "$path_dir_out/${icon_name_}.png"
 		#~ echo rsvg-convert "$ICONS_DIR_IN/$path_dir_in/$icon_name" -w $size_  -h $size_-o "$path_dir_out/${icon_name_}.png"
 		icon_name="${icon_name_}.png"
 		;;
-	M)	git mv -f $ICONS_DIR_IN/$path_dir_in/$icon_name $path_dir_out/$icon_name	;;
-	*)	cp $ICONS_DIR_IN/$path_dir_in/"${icon_name_}".*  $path_dir_out
+	M)	git mv -f $ICONS_DIR_IN/$path_dir_in/${icon_name_}.*  $path_dir_out/$icon_name	;;
+	*)	cp $ICONS_DIR_IN/$path_dir_in/${icon_name_}.*  $path_dir_out
+		# add modified files
+		git add "$size/$dir_in/$icon_name"
 	esac
 fi
-# add modified files
-git add "$size/$dir_in/$icon_name"
 }
 
 make_path() {
 for path_in
 do
-	icon_name=$(basename $path_in)
+	icon_name_=$(basename $path_in)
 	case $icons_paths in
 	'expr')
 		path_dir_in=$(dirname $path_in)
@@ -122,13 +124,24 @@ do
 		;;
 	*)
 		dir_in=$(dirname $path_in)
+		i=1
 		set $sizes
 		for size
 		do
 			case $arg2 in
-			R) path_dir_in="$dir_in/${size%x*}"	;;
-			c)	path_dir_in="$size_in/$dir_in"	;;
-			*) path_dir_in="$size/$dir_in"
+
+			R)	path_dir_in="$dir_in/${size%x*}" ;;
+			c)	path_dir_in="$size_in[i]/$dir_in"
+				(( i ++ )) ;;
+			Z)	case $size in
+				16x16)	path_dir_in="$dir_in/extra small" ;;
+				22x22)	path_dir_in="$dir_in/small" ;;
+				96x96)	path_dir_in="$dir_in" ;;
+				*)		exit 1 ;;
+				esac
+				echo $path_dir_in
+				;;
+			*)	path_dir_in="$size/$dir_in"
 			esac
 		path_dir_out=$size/$dir_in
 		make_icons $path_dir_in $path_dir_out
