@@ -4,7 +4,7 @@ AC_PREREQ(2.53)
 AC_INIT([tango-colors-icon-theme], [0.1.0])
 AC_CONFIG_SRCDIR(index.theme.in)
 
-AM_INIT_AUTOMAKE([1.9 tar-ustar])
+AM_INIT_AUTOMAKE([1.9 tar-ustar -Wno-portability ])
 
 AC_PROG_INTLTOOL([0.33])
 PKG_PROG_PKG_CONFIG([0.19])
