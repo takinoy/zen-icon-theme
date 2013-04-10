@@ -1,0 +1,35 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+actions/go-bottom
+actions/go-down
+actions/go-first
+actions/go-jump
+actions/go-last
+actions/go-next
+actions/go-previous
+actions/go-top
+actions/go-up
+actions/list-add
+actions/list-remove
+actions/view-refresh
+actions/go-first-rtl
+actions/go-last-rtl
+actions/go-next-rtl
+actions/go-previous-rtl
+actions/object-flip-horizontal
+actions/object-flip-vertical
+actions/object-rotate-left
+actions/object-rotate-right
+actions/go-first-rtl
+actions/go-last-rtl
+actions/go-next-rtl
+actions/go-previous-rtl
+actions/object-flip-horizontal
+actions/object-flip-vertical
+actions/object-rotate-left
+actions/object-rotate-right
+)
+
+export ICONS_PATHS

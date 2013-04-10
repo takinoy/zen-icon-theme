@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+status/battery-caution-charging
+status/battery-caution
+status/battery-empty
+status/battery-full-charged
+status/battery-full-charging
+status/battery-full
+status/battery-good-charging
+status/battery-good
+status/battery-low-charging
+status/battery-low
+status/battery-missing
+)
+
+export ICONS_PATHS
+
+

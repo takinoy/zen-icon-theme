@@ -1,0 +1,23 @@
+#!/bin/zsh
+
+COLOR_SCHEME_INI=('#b0cce6' '#83acd5' '#387ab8' '#538ec6' '#3f84c5')
+CREF_IN='#83acd5'
+CREF_OUT='#EDA606'
+
+# paths for images to colorize
+
+PNG_SUBDIRS=(16x16 22x22 32x32)
+SVG_SUBDIRS=(scalable)
+
+RECOLOR_PATHS=(
+apps/gnome-session-reboot
+actions/document-revert
+)
+
+COMPOSITE_PATHS=()
+PART1_PATHS=()
+PART2_PATHS=()
+
+export COLOR_SCHEME_INI CREF_IN CREF_OUT
+export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS COMPOSITE_PATHS PART1_PATHS PART2_PATHS
+

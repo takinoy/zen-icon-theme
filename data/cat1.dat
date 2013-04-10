@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+categories/applications-accessories
+categories/applications-office
+categories/applications-other
+)
+
+export ICONS_PATHS
+
+

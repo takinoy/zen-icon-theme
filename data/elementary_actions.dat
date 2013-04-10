@@ -1,0 +1,19 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+actions/document-new
+actions/document-save-as
+actions/document-save
+actions/tab-new
+actions/tag-new
+actions/document-revert
+actions/document-export
+actions/document-import
+actions/address-book-new
+actions/appointment-new
+actions/contact-new
+actions/window-new
+)
+
+export ICONS_PATHS

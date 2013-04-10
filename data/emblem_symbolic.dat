@@ -1,0 +1,25 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+emblems/emblem-favorite
+emblems/emblem-important
+emblems/emblem-photos
+emblems/emblem-readonly
+emblems/emblem-system
+emblems/emblem-unreadable
+emblems/emblem-default
+emblems/emblem-downloads
+emblems/emblem-generic
+emblems/emblem-new
+emblems/emblem-people
+emblems/emblem-personal
+emblems/emblem-shared
+emblems/emblem-sound
+emblems/emblem-ubuntuone-synchronized
+emblems/emblem-ubuntuone-unsynchronized
+emblems/emblem-ubuntuone-updating
+emblems/emblem-urgent
+)
+
+export ICONS_PATHS

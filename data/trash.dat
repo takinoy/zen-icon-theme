@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+places/user-trash
+status/user-trash-full
+)
+
+export ICONS_PATHS
+
+

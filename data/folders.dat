@@ -1,0 +1,36 @@
+#!/bin/zsh
+
+# Default color scheme for svg
+# top color				#729fcf
+# buttom color			#6194cb
+# border buttom color	#3465a4
+COLOR_SCHEME_INI=('#729fcf' '#6194cb' '#3465a4')
+CREF_IN='#6194cb'
+CREF_OUT='Br'
+
+# paths for images to colorize
+
+PNG_SUBDIRS=(16x16 22x22 32x32)
+SVG_SUBDIRS=(scalable)
+
+RECOLOR_PATHS=(
+actions/document-open
+actions/folder-new
+places/folder-documents
+places/folder-downloads
+places/folder-music
+places/folder-pictures
+places/folder
+places/folder-publicshare
+places/folder-remote
+places/folder-videos
+places/user-home
+status/folder-drag-accept
+)
+
+COMPOSITE_PATHS=(actions/folder-new)
+PART1_PATHS=(places/folder)
+PART2_PATHS=(flash_folder)
+
+export COLOR_SCHEME_INI CREF_IN CREF_OUT
+export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS COMPOSITE_PATHS PART1_PATHS PART2_PATHS

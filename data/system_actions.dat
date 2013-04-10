@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+actions/system-log-out
+actions/system-shutdown
+actions/system-lock-screen
+actions/system-upgrade
+actions/system-hibernate
+actions/system-reboot
+actions/system-suspend
+actions/system-switch
+apps/gnome-session
+)
+
+export ICONS_PATHS

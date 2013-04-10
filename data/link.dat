@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+emblems/emblem-symbolic-link
+)
+
+export ICONS_PATHS

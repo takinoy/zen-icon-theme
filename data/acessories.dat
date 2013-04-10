@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+COLOR_SCHEME_INI=('#edd563' '#e08223' '#cd8033' '#bb5e12' '#EABE5C' '#EDCB73')
+
+# paths for images to colorize
+RECOLOR_PATHS=(categories/applications-accessories)
+
+COMPOSITE_PATHS=()
+PART1_PATHS=()
+PART2_PATHS=()
+
+export COLOR_SCHEME_INI
+export RECOLOR_PATHS COMPOSITE_PATHS PART1_PATHS PART2_PATHS

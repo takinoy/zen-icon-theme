@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+apps/system-file-manager
+apps/system-users
+)
+
+export ICONS_PATHS
+
+

@@ -1,0 +1,21 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+categories/applications-development
+categories/applications-games
+categories/applications-graphics
+categories/applications-internet
+categories/applications-multimedia
+categories/applications-office
+categories/applications-other
+categories/applications-system
+categories/preferences-desktop-peripherals
+categories/preferences-desktop
+categories/preferences-system
+categories/preferences-desktop
+)
+
+export ICONS_PATHS
+
+

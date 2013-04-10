@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+apps/preferences-desktop-accessibility
+apps/preferences-desktop-locale
+apps/preferences-desktop-multimedia
+apps/preferences-desktop-notification
+apps/preferences-desktop-theme
+apps/preferences-desktop-wallpaper
+places/user-desktop
+)
+
+export ICONS_PATHS
+
+

@@ -1,0 +1,25 @@
+#!/bin/zsh
+
+COLOR_SCHEME_INI=('#4d4d4d' '#666666' '#000000')
+CREF_IN='#000000'
+CREF_OUT='DarkOrange'
+
+# paths for images to colorize
+
+PNG_SUBDIRS=(16x16 22x22 32x32)
+SVG_SUBDIRS=(scalable)
+
+RECOLOR_PATHS=(
+actions/application-exit
+)
+
+COMPOSITE_PATHS=()
+PART1_PATHS=()
+PART2_PATHS=()
+
+export COLOR_SCHEME_INI CRefIn CRefOut
+export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS COMPOSITE_PATHS PART1_PATHS PART2_PATHS
+
+#~ commands
+#~ ./recolor.sh -N -g 50 -p ../data/orange.dat ".."
+#~ ./recolor.sh -t 200  ".."
