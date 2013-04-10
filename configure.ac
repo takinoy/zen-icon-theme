@@ -42,6 +42,33 @@ else
                  and install tango-colors-icon-theme])
 fi
 
+# recolor icons
+AC_ARG_ENABLE(icon-recolor,
+   AC_HELP_STRING([--enable-recolor-folders],
+                   [enable recoloring folders [default=disable]]),
+    enable_recolor=$enableval,
+    enable_recolor=yes)
+AM_CONDITIONAL(ENABLE_RECOLOR_FOLDERS, test x$enable_recolor = xyes)
+
+if test "x$enable_recolor" = "xyes"; then
+   PKG_CHECK_EXISTS([recolor],
+                    [enable_recolor=yes],
+            PKG_CHECK_EXISTS([GraphicsMagick >= 1.1],
+                     [enable_framing=yes], [enable_framing=no]))
+   if test "x$enable_recolor" = "xyes"; then
+      #~ AC_PATH_PROG(RECOLOR, "/usr/local/share/recolor/recolor.sh")
+      #~ if test -z "$RECOLOR"; then
+         #~ AC_MSG_ERROR([recolor.sh is required to build tango-colors-icon-theme])
+      #~ fi
+
+      # Add the command line options we need here
+      RECOLOR="/usr/local/share/recolor/recolor.sh"
+      AC_SUBST(RECOLOR)
+   else
+      AC_MSG_ERROR([recolor.sh is required to build tango-colors-icon-theme])
+   fi
+fi
+
 # Check for convert from ImageMagick to add the 1x1 frame to 22x22 icons
 AC_ARG_ENABLE(icon-framing,
    AC_HELP_STRING([--disable-icon-framing],

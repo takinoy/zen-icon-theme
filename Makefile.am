@@ -1,4 +1,5 @@
-DISTCHECK_CONFIGURE_FLAGS = --disable-icon-framing --enable-png-creation
+DISTCHECK_CONFIGURE_FLAGS = --disable-icon-framing --enable-png-creation \
+--enable-icon-recolor
 
 SUBDIRS = 16x16 22x22 32x32 scalable po
 
@@ -15,12 +16,17 @@ EXTRA_DIST=				\
 	intltool-merge.in 		\
 	intltool-extract.in
 
+# recolor source files
+install: install-recolor install-recursive
+
+install-recolor:
+if ENABLE_RECOLOR_FOLDERS
+	($(RECOLOR) -M -H -O -p $(abs_builddir)/data/folders.dat $(abs_builddir))
+endif
+
 # we don't want to install mo files, all translations are already stored
 # in theme files
-# recolor source files
 install-data-local:
-	(cd /usr/local/share/recolor && \
-	./recolor.sh -H -O -p $(abs_builddir)/data/folders.dat $(abs_builddir))
 	$(MAKE) -C po uninstall
 	if [ -h $(DESTDIR)$(themedir) ]; then \
 		rm -f $(DESTDIR)$(themedir); \
@@ -28,6 +34,7 @@ install-data-local:
 	if [ -d $(DESTDIR)$(themedir) ]; then \
 		touch $(DESTDIR)$(themedir); \
 	fi
+
 
 CLEANFILES = 				\
 	index.theme
