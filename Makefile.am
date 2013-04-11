@@ -32,7 +32,7 @@ install-data-local:
 		for dir in `find $$size -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$dir; \
 		done; \
-		for icon in `find $$size -name "*.png" -type f`; do \
+		for icon in `find $$size -name "*.png"`; do \
 			$(install_sh_DATA) $$icon $(DESTDIR)$(themedir)/$$icon; \
 		done; \
 	done; \
@@ -40,7 +40,7 @@ install-data-local:
 	for dir in `find scalable -type d`; do \
 		$(mkdir_p) $(DESTDIR)$(themedir)/$$dir; \
 	done; \
-	for icon in `find scalable -name "*.svg" -type f`; do \
+	for icon in `find scalable -name "*.svg"`; do \
 		$(install_sh_DATA) $$icon $(DESTDIR)$(themedir)/$$icon; \
 	done; 
 if ENABLE_ICON_FRAMING
@@ -50,7 +50,7 @@ if ENABLE_ICON_FRAMING
 	for dir in `find * -type d`; do \
 		$(mkdir_p) $(DESTDIR)$(themedir)/$(FRAMING_SIZE)/$$dir; \
 	done; \
-	for icon in `find * -name "*.png" -type f`; do \
+	for icon in `find * -name "*.png"`; do \
 		$(CONVERT) $$icon $(DESTDIR)$(themedir)/$(FRAMING_SIZE)/$$icon; \
 	done; \
 	cd ..; 
@@ -62,7 +62,7 @@ if ENABLE_LARGE_BITMAPS
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
 		done; \
-		for icon in `find * -name "*.svg" -type f`; do \
+		for icon in `find * -name "*.svg"`; do \
 			pngdir=`dirname $(DESTDIR)$(themedir)/$$size/$$icon`; \
 			i=$${size%x*}; \
 			$(abs_top_builddir)/svg2png.sh $$i $$pngdir $$icon; \
