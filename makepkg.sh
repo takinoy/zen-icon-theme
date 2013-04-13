@@ -2,13 +2,12 @@
 
 # use -f to force update
 source cache/PKGBUILD
-git archive --format=tar.gz --prefix=$pkgname-$pkgver/ HEAD > cache/$pkgname-$pkgver.tar.gz
+git archive --prefix=$pkgname-$pkgver/ -o cache/$pkgname-$pkgver.tar.gz HEAD
 
 cd cache
+rm -r src
 makepkg $1 --source --skipchecksums
-makepkg $1 --skipchecksums
-makepkg --install
-yaourt -U $pkgname-$pkgver-*tar.xz
+makepkg $1 --skipchecksums --install
 
 #~ rm -r cache/$pkgname
 #~ mkdir cache/$pkgname
