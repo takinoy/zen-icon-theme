@@ -1,3 +1,5 @@
+# add missing standard files to package and configure it
 aclocal
-automake -fi
-autoreconf -fi
+automake --add-missing
+autoconf
+./configure $1

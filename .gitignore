@@ -3,7 +3,7 @@
 # any tracked files which get ignored after the change.
 
 archives/*
-darft
+draft
 *.tmp
 cache/*
 *.cache
@@ -21,7 +21,6 @@ data/folders.dat
 index.theme
 Makefile
 Makefile.in
-makepkg.sh
 POTFILES
 stamp-it
 svg2png.sh
