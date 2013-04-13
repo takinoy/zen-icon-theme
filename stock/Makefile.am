@@ -2,7 +2,7 @@
 install-data-local:
 	for size in 16x16 22x22 32x32; do \
 		echo -e "Converting svg icons files to png for size $$size..."; \
-		cd 48x48 && \
+		cd scalable && \
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
 		done; \
@@ -39,7 +39,7 @@ install-data-local:
 		done; \
 		cd ..; \
 	done; \
-	for size_svg in 48x48 96x96; do \
+	for size_svg in scalable 96x96; do \
 		cd $$size_svg && \
 			echo -e "Copying icons files for scalable..."; \
 			for dir in `find $$size_svg -type d`; do \
