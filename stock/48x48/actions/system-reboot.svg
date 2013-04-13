@@ -45,11 +45,11 @@
        id="linearGradient3533">
       <stop
          id="stop3535"
-         style="stop-color:#b0cce6;stop-opacity:1;"
+         style="stop-color:#feba22;stop-opacity:1;"
          offset="0" />
       <stop
          id="stop3545"
-         style="stop-color:#83acd5;stop-opacity:1;"
+         style="stop-color:#edaa07;stop-opacity:1;"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -65,11 +65,11 @@
     <linearGradient
        id="linearGradient3266">
       <stop
-         style="stop-color:#387ab8;stop-opacity:1"
+         style="stop-color:#ac7700;stop-opacity:1"
          offset="0"
          id="stop3268" />
       <stop
-         style="stop-color:#387ab8;stop-opacity:0;"
+         style="stop-color:#ac7700;stop-opacity:0;"
          offset="1"
          id="stop3270" />
     </linearGradient>
@@ -86,11 +86,11 @@
        inkscape:collect="always"
        id="linearGradient3276">
       <stop
-         style="stop-color:#83acd5;stop-opacity:1;"
+         style="stop-color:#edaa07;stop-opacity:1;"
          offset="0"
          id="stop3278" />
       <stop
-         style="stop-color:#83acd5;stop-opacity:0;"
+         style="stop-color:#edaa07;stop-opacity:0;"
          offset="1"
          id="stop3280" />
     </linearGradient>
@@ -196,7 +196,7 @@
        sodipodi:type="arc" />
     <path
        id="path3372"
-       style="fill:url(#linearGradient3573);fill-opacity:1;stroke:#387ab8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient3573);fill-opacity:1;stroke:#ac7700;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 23.828332,33.831672 C 18.93338,33.777796 14.892622,29.108505 14.946739,24.235241 C 15.000858,19.361979 19.389728,15.17058 24.284683,15.224459 C 26.648593,15.250477 28.93898,16.009791 30.636756,17.647585 L 26.232499,21.709198 L 42.250775,21.709198 C 42.250775,21.709198 42.250775,5.9033432 42.250775,5.9033432 L 38.028897,10.10953 C 34.320671,6.4655361 30.034152,4.5561514 24.561278,4.4959126 C 13.427719,4.3733674 4.5481647,13.442896 4.4250734,24.527122 C 4.3019822,35.611347 13.160807,44.280977 24.294366,44.403521"
        sodipodi:nodetypes="csscccccssc" />
     <path
