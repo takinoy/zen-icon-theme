@@ -131,6 +131,7 @@ AC_SUBST(LARGE_SIZES)
 AC_CONFIG_FILES([
 Makefile
 stock/Makefile
+dark-panel/Makefile
 po/Makefile.in
 svg2png.sh
 ])	

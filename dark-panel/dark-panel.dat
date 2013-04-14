@@ -1,0 +1,94 @@
+#!/bin/zsh
+
+# disable OUT_DAT
+OUT_DAT='FALSE'
+
+COLOR_SCHEME_INI=(
+'#000000' \
+'#ffffff' 
+)
+
+CREF_IN='#000000'
+CREF_OUT='#ebebeb'
+
+# paths for images to colorize
+PNG_SUBDIRS=()
+SVG_SUBDIRS=(16x16 22x22 scalable)
+
+RECOLOR_PATHS=(
+status/appointment-missed \
+status/appointment-soon \
+status/audio-volume-high \
+status/audio-volume-low \
+status/audio-volume-medium \
+status/audio-volume-muted \
+status/audio-volume-muted-red \
+status/bluetooth-active \
+status/bluetooth-disabled \
+status/bluetooth-paired \
+status/gpm-primary-000 \
+status/gpm-primary-000-charging \
+status/gpm-primary-020 \
+status/gpm-primary-020-charging \
+status/gpm-primary-040 \
+status/gpm-primary-040-charging \
+status/gpm-primary-060 \
+status/gpm-primary-060-charging \
+status/gpm-primary-080 \
+status/gpm-primary-080-charging \
+status/gpm-primary-100 \
+status/gpm-primary-100-charging \
+status/gpm-primary-charged \
+status/gpm-primary-missing \
+status/gsm-3g-full \
+status/gsm-3g-full-secure \
+status/gsm-3g-high \
+status/gsm-3g-high-secure \
+status/gsm-3g-low \
+status/gsm-3g-low-secure \
+status/gsm-3g-medium \
+status/gsm-3g-medium-secure \
+status/gsm-3g-none \
+status/gsm-3g-none-secure \
+status/im-message-new \
+status/indicator-messages \
+status/locked \
+status/network-error \
+status/network-idle \
+status/network-offline \
+status/network-receive \
+status/network-transmit \
+status/network-transmit-receive \
+status/nm-adhoc \
+status/nm-device-wired-secure \
+status/nm-no-connection \
+status/nm-signal-00 \
+status/nm-signal-00-secure \
+status/nm-signal-100 \
+status/nm-signal-100-secure \
+status/nm-signal-25 \
+status/nm-signal-25-secure \
+status/nm-signal-50 \
+status/nm-signal-50-secure \
+status/nm-signal-75 \
+status/nm-signal-75-secure \
+status/nm-vpn-lock \
+status/radiotray_connecting \
+status/radiotray_off \
+status/radiotray_on \
+status/sound-icon \
+status/ubuntuone-client-error \
+status/ubuntuone-client-idle \
+status/ubuntuone-client-offline \
+status/ubuntuone-client-updating \
+status/user-available \
+status/user-away \
+status/user-busy \
+status/user-idle \
+status/user-indeterminate \
+status/user-invisible \
+status/user-offline
+)
+
+export COLOR_SCHEME_INI CREF_IN CREF_OUT
+export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS
