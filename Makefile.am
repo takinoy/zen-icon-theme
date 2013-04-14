@@ -1,7 +1,7 @@
 DISTCHECK_CONFIGURE_FLAGS = --disable-icon-framing --enable-png-creation \
 --enable-icon-recolor
 
-SUBDIRS = dark-panel stock po
+SUBDIRS = dark dark-panel stock po
 
 THEME_IN_FILES = index.theme.in
 

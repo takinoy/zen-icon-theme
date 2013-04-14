@@ -131,6 +131,7 @@ AC_CONFIG_FILES([
 data/folders.dat
 Makefile
 stock/Makefile
+dark/Makefile
 dark-panel/Makefile
 po/Makefile.in
 ])	
