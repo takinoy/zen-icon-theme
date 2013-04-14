@@ -92,3 +92,4 @@ status/user-offline
 
 export COLOR_SCHEME_INI CREF_IN CREF_OUT
 export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS
+export OUT_DAT

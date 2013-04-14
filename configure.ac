@@ -123,12 +123,12 @@ fi
 AC_SUBST(SVGCONVERT)
 AM_CONDITIONAL(ENABLE_LARGE_BITMAPS, test x$enable_large_bitmaps = xyes)
 
-
 # Icon sizes we want to install
 AC_SUBST(FRAMING_SIZE)
 AC_SUBST(LARGE_SIZES)
 
 AC_CONFIG_FILES([
+data/folders.dat
 Makefile
 stock/Makefile
 dark-panel/Makefile

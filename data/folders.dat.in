@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# disable OUT_DAT
+OUT_DAT='FALSE'
+
 # Default color scheme for svg
 # top color				#729fcf
 # buttom color			#6194cb
@@ -16,21 +19,26 @@ SVG_SUBDIRS=(scalable)
 RECOLOR_PATHS=(
 actions/document-open
 actions/folder-new
+places/folder
 places/folder-documents
 places/folder-downloads
 places/folder-music
+places/folder-open.png
 places/folder-pictures
-places/folder
 places/folder-publicshare
 places/folder-remote
 places/folder-videos
 places/user-home
 status/folder-drag-accept
+status/folder-open
 )
 
+PART2_DIR=@abs_top_builddir@/stock
 COMPOSITE_PATHS=(actions/folder-new)
 PART1_PATHS=(places/folder)
 PART2_PATHS=(flash_folder)
 
 export COLOR_SCHEME_INI CREF_IN CREF_OUT
-export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS COMPOSITE_PATHS PART1_PATHS PART2_PATHS
+export PNG_SUBDIRS SVG_SUBDIRS RECOLOR_PATHS
+export PART2_DIR COMPOSITE_PATHS PART1_PATHS PART2_PATHS
+export OUT_DAT
