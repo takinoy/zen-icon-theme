@@ -11,7 +11,6 @@ theme_DATA = index.theme
 
 EXTRA_DIST=				\
 	$(THEME_IN_FILES)		\
-	svg2png.sh.in			\
 	intltool-update.in 		\
 	intltool-merge.in 		\
 	intltool-extract.in
@@ -44,7 +43,7 @@ install-data-local:
 		$(install_sh_DATA) $$icon $(DESTDIR)$(themedir)/$$icon; \
 	done;
 if ENABLE_RECOLOR_FOLDERS
-	($(RECOLOR) -M -H -O -p $(abs_top_builddir)/data/folders.dat  $(DESTDIR)$(themedir))
+	($(RECOLOR) -M -H -O -p $(abs_top_builddir)/data/folders.dat $(DESTDIR)$(themedir))
 endif
 if ENABLE_ICON_FRAMING
 	echo -e "Converting icons files from 22x22 to $(FRAMING_SIZE)..."; \
@@ -66,9 +65,9 @@ if ENABLE_LARGE_BITMAPS
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
 		done; \
 		for icon in `find * -name "*.svg"`; do \
-			pngdir=`dirname $(DESTDIR)$(themedir)/$$size/$$icon`; \
+			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
 			i=$${size%x*}; \
-			$(abs_top_builddir)/svg2png.sh $$i $$pngdir $$icon; \
+			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
 		done; \
 		cd ..; \
 	done;
@@ -99,7 +98,6 @@ CLEANFILES = 				\
 	index.theme
 
 DISTCLEANFILES = 			\
-	svg2png.sh			\
 	intltool-extract		\
 	intltool-merge			\
 	intltool-update

@@ -133,9 +133,6 @@ Makefile
 stock/Makefile
 dark-panel/Makefile
 po/Makefile.in
-svg2png.sh
 ])	
 
 AC_OUTPUT
-
-chmod +x svg2png.sh

@@ -22,9 +22,9 @@ install-data-local:
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
 		done; \
 		for icon in `find * -name "*.svg"`; do \
-			pngdir=`dirname $(DESTDIR)$(themedir)/$$size/$$icon`; \
+			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
 			i=$${size%x*}; \
-			$(abs_top_builddir)/svg2png.sh $$i $$pngdir $$icon; \
+			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
 		done; \
 		cd ..; \
 	done; \
@@ -35,15 +35,15 @@ install-data-local:
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
 		done; \
 		for icon in `find * -name "*.svg"`; do \
-			pngdir=`dirname $(DESTDIR)$(themedir)/$$size/$$icon`; \
+			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
 			i=$${size%x*}; \
-			$(abs_top_builddir)/svg2png.sh $$i $$pngdir $$icon; \
+			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
 		done; \
 		cd ..; \
 	done; \
 	for size_svg in scalable; do \
+		echo -e "Copying icons files for scalable..."; \
 		cd $$size_svg && \
-			echo -e "Copying icons files for scalable..."; \
 			for dir in `find * -type d`; do \
 				$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$dir; \
 			done; \
