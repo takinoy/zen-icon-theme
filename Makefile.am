@@ -16,8 +16,8 @@ EXTRA_DIST=				\
 	intltool-merge.in 		\
 	intltool-extract.in
 
-# recolor source files
-install: install-recolor install-recursive
+install-data-am: install-data-local install-themeDATA
+	($(abs_top_builddir)/index.theme.sh $(DESTDIR)$(themedir))
 
 install-recolor:
 if ENABLE_RECOLOR_FOLDERS
@@ -42,7 +42,10 @@ install-data-local:
 	done; \
 	for icon in `find scalable -name "*.svg"`; do \
 		$(install_sh_DATA) $$icon $(DESTDIR)$(themedir)/$$icon; \
-	done; 
+	done;
+if ENABLE_RECOLOR_FOLDERS
+	($(RECOLOR) -M -H -O -p $(abs_top_builddir)/data/folders.dat  $(DESTDIR)$(themedir))
+endif
 if ENABLE_ICON_FRAMING
 	echo -e "Converting icons files from 22x22 to $(FRAMING_SIZE)..."; \
 	cd $(DESTDIR)$(themedir); \

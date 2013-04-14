@@ -9,6 +9,9 @@ theme_DATA = index.theme
 EXTRA_DIST=				\
 	$(THEME_IN_FILES)
 
+install-data-am: install-data-local install-themeDATA
+	($(abs_top_builddir)/index.theme.sh $(DESTDIR)$(themedir))
+
 install-data-local:
 	echo -e "Make dark-panel icons files..."; \
 	$(RECOLOR) ../stock -negate -modulate 92 -p dark-panel.dat "."; \
