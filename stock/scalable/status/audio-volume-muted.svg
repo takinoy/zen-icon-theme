@@ -271,7 +271,7 @@
        inkscape:label="Emblem" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#3c3c3c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 21,9 -12,9 -6,0 0,12 6,0 12,9 z"
        id="path3804-0"
        sodipodi:nodetypes="ccccccc" />
@@ -280,7 +280,7 @@
        id="layer2"
        transform="translate(1.8434444,1.998675)" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#3c3c3c;fill-opacity:1;stroke:none"
        id="Symbol"
        inkscape:connector-curvature="0"
        d="m 42,15 -6,6 -6,-6 -3,3 6,6 -6,6 3,3 6,-6 6,6 3,-3 -6,-6 6,-6 z"

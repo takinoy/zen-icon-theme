@@ -15,7 +15,7 @@
    id="svg4289"
    sodipodi:version="0.32"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="audio-volume-medium.svg"
+   sodipodi:docname="audio-volume-high.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1"
    inkscape:export-filename="/home/cedric/.icons/Tango-colors-test/22x22/status/audio-volume-high.png"
@@ -182,8 +182,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9999996"
-     inkscape:cx="24.500001"
-     inkscape:cy="20.559595"
+     inkscape:cx="21.305135"
+     inkscape:cy="20.372095"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -213,7 +213,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Andreas Nilsson</dc:title>
@@ -271,12 +271,12 @@
        inkscape:label="Emblem" />
     <path
        style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 32.051291,11.111111 -1.699049,1.666667 c 2.938774,2.842139 4.79076,6.820326 4.79076,11.222222 0,4.401895 -1.851988,8.352304 -4.79076,11.194445 l 1.699049,1.694444 C 35.425942,33.611312 37.566238,29.065253 37.566236,24 c -1e-6,-5.065253 -2.140294,-9.611314 -5.514945,-12.888889 z"
+       d="m 33.116476,6.8418207 -2.253599,2.2106488 c 3.897957,3.7697815 6.35441,9.0464045 6.35441,14.8850305 0,5.838625 -2.456456,11.078404 -6.35441,14.848187 l 2.253599,2.247492 c 4.476099,-4.347341 7.314965,-10.377184 7.314962,-17.095679 -2e-6,-6.718495 -2.838863,-12.74834 -7.314962,-17.0956793 z"
        id="path3802"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 26.954144,16.166667 -1.726902,1.722222 c 1.626866,1.534848 2.673913,3.703127 2.673913,6.111111 -1e-6,2.407983 -1.047047,4.548484 -2.673913,6.083333 l 1.726902,1.722223 C 29.019508,29.834686 30.324389,27.07369 30.324389,24 c 0,-3.07369 -1.304881,-5.862464 -3.370245,-7.833333 z"
+       d="m 28.355677,13.565875 -2.290544,2.284336 c 2.157858,2.035806 3.546649,4.911787 3.546649,8.10571 -1e-6,3.193922 -1.388791,6.033059 -3.546649,8.068865 l 2.290544,2.284338 c 2.739476,-2.614141 4.470255,-6.276295 4.470255,-10.353203 0,-4.076908 -1.730779,-7.775906 -4.470255,-10.390045 z"
        id="rect17020"
        inkscape:connector-curvature="0" />
     <g
@@ -285,7 +285,7 @@
        transform="translate(1.8434444,1.998675)" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#3c3c3c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 21,9 -12,9 -6,0 0,12 6,0 12,9 z"
        id="path3804-0"
        sodipodi:nodetypes="ccccccc" />

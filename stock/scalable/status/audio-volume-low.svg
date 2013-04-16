@@ -182,8 +182,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9999996"
-     inkscape:cx="24.750001"
-     inkscape:cy="24.747095"
+     inkscape:cx="14.555134"
+     inkscape:cy="20.372095"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -271,7 +271,7 @@
        inkscape:label="Emblem" />
     <path
        style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 26.954144,16.166667 -1.726902,1.722222 c 1.626866,1.534848 2.673913,3.703127 2.673913,6.111111 -1e-6,2.407983 -1.047047,4.548484 -2.673913,6.083333 l 1.726902,1.722223 C 29.019508,29.834686 30.324389,27.07369 30.324389,24 c 0,-3.07369 -1.304881,-5.862464 -3.370245,-7.833333 z"
+       d="m 28.355677,13.565875 -2.290544,2.284336 c 2.157858,2.035806 3.546649,4.911787 3.546649,8.10571 -1e-6,3.193922 -1.388791,6.033059 -3.546649,8.068865 l 2.290544,2.284338 c 2.739476,-2.614141 4.470255,-6.276295 4.470255,-10.353203 0,-4.076908 -1.730779,-7.775906 -4.470255,-10.390045 z"
        id="rect17020"
        inkscape:connector-curvature="0" />
     <g
@@ -280,7 +280,7 @@
        transform="translate(1.8434444,1.998675)" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#3c3c3c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 21,9 -12,9 -6,0 0,12 6,0 12,9 z"
        id="path3804-0"
        sodipodi:nodetypes="ccccccc" />
