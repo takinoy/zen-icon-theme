@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+# icons paths
+ICONS_PATHS=(
+status/audio-volume-high
+status/audio-volume-low
+status/audio-volume-medium
+status/audio-volume-muted
+status/audio-volume-muted-blocked-panel
+)
+
+export ICONS_PATHS
+
