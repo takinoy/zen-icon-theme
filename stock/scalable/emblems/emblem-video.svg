@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="240.00000"
+   inkscape:export-xdpi="240.00000"
+   inkscape:export-filename="/home/jimmac/gfx/novell/pdes/trunk/docs/BIGmime-text.png"
+   sodipodi:docname="emblem-video.svg"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:version="0.32"
+   id="svg249"
+   height="48.000000px"
+   width="48.000000px"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <defs
+     id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4070">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop4072" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0;"
+         offset="1"
+         id="stop4074" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4070"
+       id="linearGradient4076"
+       x1="24.563"
+       y1="18.71875"
+       x2="24.688"
+       y2="35.3125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4293785,0,0,1.4293785,-10.171011,-13.762929)" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-y="55"
+     inkscape:window-x="-350"
+     inkscape:window-height="748"
+     inkscape:window-width="1024"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     showgrid="true"
+     inkscape:current-layer="layer5"
+     inkscape:cy="19.993859"
+     inkscape:cx="39.035995"
+     inkscape:zoom="8"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1"
+     bordercolor="#666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="false"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Generic Audio File</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>audio</rdf:li>
+            <rdf:li>multimedia</rdf:li>
+            <rdf:li>sound</rdf:li>
+            <rdf:li>music</rdf:li>
+            <rdf:li>generic</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>http://jimmac.musichall.cz</dc:source>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Shadow" />
+  <g
+     style="display:inline"
+     inkscape:groupmode="layer"
+     inkscape:label="Base"
+     id="layer1">
+    <g
+       transform="matrix(1.9240301,0,0,1.9240301,-59.466833,42.268752)"
+       id="g3265"
+       inkscape:label="Shadow" />
+    <g
+       transform="matrix(1.9240301,0,0,1.9240301,-59.466833,42.268752)"
+       style="display:inline"
+       inkscape:label="Base"
+       id="g3267" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Text"
+     style="display:inline">
+    <g
+       id="g3953"
+       inkscape:label="Shadow"
+       transform="translate(43.597639,-12.587609)" />
+    <g
+       inkscape:label="Shadow"
+       id="g3959"
+       transform="matrix(1.9240301,0,0,1.9240301,-15.869194,29.681143)" />
+    <g
+       id="g3961"
+       inkscape:label="Base"
+       style="display:inline"
+       transform="matrix(1.9240301,0,0,1.9240301,-15.869194,29.681143)" />
+    <g
+       id="g3982"
+       inkscape:label="Shadow"
+       transform="translate(38.71875,-1.09375)" />
+    <g
+       inkscape:label="Shadow"
+       id="g3988"
+       transform="matrix(1.9240301,0,0,1.9240301,-20.748083,41.175002)" />
+    <g
+       id="g3990"
+       inkscape:label="Base"
+       style="display:inline"
+       transform="matrix(1.9240301,0,0,1.9240301,-20.748083,41.175002)" />
+    <g
+       id="g4430"
+       inkscape:label="Shadow"
+       transform="matrix(1.0660938,0,0,1.0660938,-2.0965442,3.5255378)" />
+    <g
+       style="display:inline"
+       inkscape:label="Base"
+       id="g4432"
+       transform="matrix(1.0660938,0,0,1.0660938,-2.0965442,3.5255378)" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.31599998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.356178,12.99325 L 6.356178,36.699164 L 8.0494569,36.699164 L 8.0494569,34.707071 L 10.888191,34.707071 L 10.888191,36.699164 L 21.197275,36.699164 L 26.17751,36.699164 L 36.486594,36.699164 L 36.486594,34.707071 L 39.325328,34.707071 L 39.325328,36.699164 L 41.018607,36.699164 L 41.018607,12.99325 L 39.325328,12.99325 L 39.325328,14.885739 L 36.486594,14.885739 L 36.486594,12.99325 L 26.17751,12.99325 L 21.197275,12.99325 L 10.888191,12.99325 L 10.888191,14.885739 L 8.0494569,14.885739 L 8.0494569,12.99325 L 6.356178,12.99325 z M 15.071588,15.284158 L 21.197275,15.284158 L 26.17751,15.284158 L 32.303198,15.284158 C 33.092305,15.284158 33.747465,15.776543 33.747466,16.379809 L 33.747466,33.362407 C 33.747466,33.965675 33.092299,34.45806 32.303198,34.458059 L 26.17751,34.458059 L 21.197275,34.458059 L 15.071588,34.458059 C 14.282485,34.45806 13.627319,33.965675 13.627319,33.362407 L 13.627319,16.379809 C 13.627319,15.776543 14.282481,15.284158 15.071588,15.284158 z M 8.0494569,17.724473 L 10.888191,17.724473 L 10.888191,20.513403 L 8.0494569,20.513403 L 8.0494569,17.724473 z M 36.486594,17.724473 L 39.325328,17.724473 L 39.325328,20.513403 L 36.486594,20.513403 L 36.486594,17.724473 z M 8.0494569,23.401939 L 10.888191,23.401939 L 10.888191,26.190871 L 8.0494569,26.190871 L 8.0494569,23.401939 z M 36.486594,23.401939 L 39.325328,23.401939 L 39.325328,26.190871 L 36.486594,26.190871 L 36.486594,23.401939 z M 8.0494569,29.029604 L 10.888191,29.029604 L 10.888191,31.818535 L 8.0494569,31.818535 L 8.0494569,29.029604 z M 36.486594,29.029604 L 39.325328,29.029604 L 39.325328,31.818535 L 36.486594,31.818535 L 36.486594,29.029604 z"
+       id="path2492" />
+  </g>
+</svg>

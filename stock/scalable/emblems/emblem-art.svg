@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg4289"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docbase="/home/lapo/Icone/cvs/gnome-icon-theme/scalable/categories"
+   sodipodi:docname="emblem-art.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4291">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3347">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop3349" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0;"
+         offset="1"
+         id="stop3351" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3347"
+       id="linearGradient3353"
+       x1="9.007"
+       y1="8.6536093"
+       x2="9.007"
+       y2="41.372585"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666"
+     borderopacity="0.31372549"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.824742"
+     inkscape:cx="18.451801"
+     inkscape:cy="25.480911"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1019"
+     inkscape:window-height="749"
+     inkscape:window-x="259"
+     inkscape:window-y="24"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata4294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>System Preferences</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Andreas Nilsson</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>category</rdf:li>
+            <rdf:li>system</rdf:li>
+            <rdf:li>preferences</rdf:li>
+            <rdf:li>settings</rdf:li>
+            <rdf:li>control center</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000002;stroke-width:0.80925953px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       d="M 23.381146,27.300743 C 20.481566,24.29019 15.434794,18.528423 9.492967,9.4959754 C 9.2507904,9.2025326 9.6855902,8.9788858 9.9151796,9.1097278 C 19.182636,16.23416 23.770693,21.452727 26.372122,24.435275"
+       id="path2568"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80925959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25.913453,23.933898 C 24.694381,24.360722 23.59619,25.075122 22.922476,26.799367 C 24.083726,28.016885 28.725314,32.261904 31.656975,34.069684 L 32.594316,32.884737 C 30.996528,30.326565 28.049914,26.265305 25.913453,23.933898 z"
+       id="path3316"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80925947;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+       d="M 40.589371,38.853896 C 36.794825,38.686563 37.352682,34.747034 35.564276,33.452224 C 33.491843,31.951779 31.543421,33.610083 31.106132,35.026708 C 30.554358,36.814216 31.274396,38.837835 33.664408,39.74079 C 36.344127,40.753198 40.204346,40.416847 40.589371,38.853896 z"
+       id="path3100"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="fill:url(#linearGradient3353);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994000000003px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       d="M 10.126353,8.757623 C 9.8299267,8.5886907 9.5283125,8.6398904 9.2918045,8.8082018 C 9.1735505,8.8923574 9.0459622,9.0237342 9.0136215,9.2128316 C 8.9831288,9.3911233 9.0621047,9.5814347 9.1653577,9.7186188 C 9.173171,9.7304962 9.1828385,9.7320437 9.190647,9.7439082 C 15.133413,18.773458 18.315821,22.475149 21.228384,25.499181 C 21.599294,23.324296 23.133516,22.262143 24.414843,21.705777 C 21.812295,18.721945 19.438199,15.922027 10.151643,8.7829124 C 10.14359,8.774114 10.135152,8.765676 10.126353,8.757623 z"
+       id="path3241"
+       sodipodi:nodetypes="csssscccc" />
+  </g>
+</svg>
