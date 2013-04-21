@@ -32,11 +32,11 @@
      inkscape:window-height="480"
      id="namedview50"
      showgrid="true"
-     inkscape:zoom="2.4583333"
-     inkscape:cx="-32.338984"
-     inkscape:cy="45.152537"
-     inkscape:window-x="0"
-     inkscape:window-y="43"
+     inkscape:zoom="5.1666667"
+     inkscape:cx="28.108886"
+     inkscape:cy="23.516129"
+     inkscape:window-x="60"
+     inkscape:window-y="157"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -367,17 +367,17 @@
   </metadata>
   <path
      sodipodi:type="arc"
-     style="fill:url(#radialGradient3816);fill-opacity:1;stroke:none"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
      id="path3808"
      sodipodi:cx="54"
      sodipodi:cy="48"
      sodipodi:rx="36"
      sodipodi:ry="36"
      d="m 90,48 a 36,36 0 1 1 -72,0 36,36 0 1 1 72,0 z"
-     transform="matrix(0.66666665,0,0,0.66666665,-11.999999,-7.9999992)" />
+     transform="matrix(0.5,0,0,0.5,-2.9999999,-4.0000003e-8)" />
   <path
      style="fill:#000000;fill-opacity:1;stroke:none"
      id="path2505"
      inkscape:connector-curvature="0"
-     d="M 24,9 C 15.719999,9 9,15.719998 9,24 9,32.280002 15.719999,39 24,39 32.28,39 39.000002,32.280004 39,24 39,15.719998 32.28,9 24,9 z m 5.683594,7.558594 3.632812,3.925781 -11.25,12.773438 -7.382812,-7.324219 3.632812,-3.925782 3.75,3.398438 7.617188,-8.847656 z" />
+     d="M 24,6.0000002 C 14.063999,6.0000002 6.0000001,14.063998 6.0000001,24 6.0000001,33.936002 14.063999,42 24,42 33.936,42 42.000002,33.936005 42,24 42,14.063998 33.936,6.0000002 24,6.0000002 z m 6.820313,9.0703128 4.359374,4.710937 -13.5,15.328126 -8.859374,-8.789063 4.359374,-4.710939 4.5,4.078126 9.140626,-10.617187 z" />
 </svg>

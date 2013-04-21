@@ -28,15 +28,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="781"
+     inkscape:window-width="938"
      inkscape:window-height="480"
      id="namedview50"
      showgrid="true"
-     inkscape:zoom="2.5833333"
-     inkscape:cx="-28.540375"
-     inkscape:cy="45.152538"
-     inkscape:window-x="0"
-     inkscape:window-y="43"
+     inkscape:zoom="6.3589744"
+     inkscape:cx="24"
+     inkscape:cy="21.67307"
+     inkscape:window-x="496"
+     inkscape:window-y="169"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -408,19 +408,9 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     sodipodi:type="arc"
-     style="fill:url(#radialGradient3816);fill-opacity:1;stroke:none"
-     id="path3808"
-     sodipodi:cx="54"
-     sodipodi:cy="48"
-     sodipodi:rx="36"
-     sodipodi:ry="36"
-     d="m 90,48 a 36,36 0 1 1 -72,0 36,36 0 1 1 72,0 z"
-     transform="matrix(0.66666665,0,0,0.66666665,-11.999999,-7.9999992)" />
   <g
      id="g3068"
-     transform="matrix(0.462729,0,0,0.45399007,1.6559098,3.5143188)">
+     transform="matrix(0.49832354,0,0,0.54478808,-0.06286636,-0.5828171)">
     <path
        d="m 60.412637,29.248633 -16.25,18.875 -8,-7.25 -7.75,8.375 0.46875,0.46875 7.28125,-7.84375 8,7.25 16.25,-18.875 7.3125,7.875 0.4375,-0.5 -7.75,-8.375 z m -44.125,16.375 c -0.0025,0.165981 0,0.333418 0,0.5 0,17.664004 14.335998,32 32,32 17.664,0 32.000004,-14.335992 32,-32 0,-0.166582 0.0025,-0.334019 0,-0.5 -0.266871,17.434277 -14.502582,31.5 -32,31.5 -17.49742,0 -31.733125,-14.065726 -32,-31.5 z"
        inkscape:connector-curvature="0"

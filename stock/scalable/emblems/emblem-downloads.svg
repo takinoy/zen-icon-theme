@@ -32,11 +32,11 @@
      inkscape:window-height="480"
      id="namedview50"
      showgrid="true"
-     inkscape:zoom="2.5833334"
-     inkscape:cx="47.225807"
-     inkscape:cy="48"
-     inkscape:window-x="0"
-     inkscape:window-y="43"
+     inkscape:zoom="5.1666667"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:window-x="237"
+     inkscape:window-y="238"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -366,19 +366,9 @@
     </rdf:RDF>
   </metadata>
   <path
-     sodipodi:type="arc"
-     style="fill:url(#radialGradient3816);fill-opacity:1;stroke:none"
-     id="path3808"
-     sodipodi:cx="54"
-     sodipodi:cy="48"
-     sodipodi:rx="36"
-     sodipodi:ry="36"
-     d="m 90,48 a 36,36 0 1 1 -72,0 36,36 0 1 1 72,0 z"
-     transform="matrix(0.66666665,0,0,0.66666665,-11.999999,-7.9999992)" />
-  <path
      style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
      id="Symbol"
      inkscape:connector-curvature="0"
-     d="m 18.105675,7.5 0,3 12,0 0,-3 z m 0,6 0,6 12,0 0,-6 z m 0,9 -0.203389,5.949152 -6.007961,-0.129253 12.21135,12.180101 12.000001,-12 -6.000001,0 0,-6 z"
+     d="m 18.157129,6 0,3.2727273 11.895247,0 0,-3.2727273 z m 0,6.545455 0,6.545454 11.895247,0 0,-6.545454 z m 0,9.818181 L 17.955515,28.85362 12.000001,28.712617 24.104753,42 36,28.909091 l -5.947624,0 0,-6.545455 z"
      sodipodi:nodetypes="cccccccccccccccccc" />
 </svg>

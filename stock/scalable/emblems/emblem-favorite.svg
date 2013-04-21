@@ -33,10 +33,10 @@
      id="namedview50"
      showgrid="true"
      inkscape:zoom="2.4583333"
-     inkscape:cx="44.285257"
+     inkscape:cx="-37.680846"
      inkscape:cy="45.152537"
-     inkscape:window-x="0"
-     inkscape:window-y="43"
+     inkscape:window-x="276"
+     inkscape:window-y="77"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -366,18 +366,8 @@
     </rdf:RDF>
   </metadata>
   <path
-     sodipodi:type="arc"
-     style="fill:url(#radialGradient3816);fill-opacity:1;stroke:none"
-     id="path3808"
-     sodipodi:cx="54"
-     sodipodi:cy="48"
-     sodipodi:rx="36"
-     sodipodi:ry="36"
-     d="m 90,48 a 36,36 0 1 1 -72,0 36,36 0 1 1 72,0 z"
-     transform="matrix(0.66666665,0,0,0.66666665,-11.999999,-7.9999992)" />
-  <path
      inkscape:connector-curvature="0"
      style="color:#000000;fill:#f3840c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="path3649-9"
-     d="M 33.263673,38.285714 23.995052,33.402146 14.722653,38.278515 16.497166,27.943266 9,20.620401 19.365329,19.116433 24.004226,9.7142855 28.635839,19.120032 39,20.632049 31.497165,27.949087 z" />
+     d="M 35.116408,41.142857 23.994062,35.282575 12.867184,41.134218 14.996599,28.731919 6,19.944481 18.438395,18.13972 24.005071,6.8571426 29.563007,18.144038 42,19.958459 32.996598,28.738904 z" />
 </svg>

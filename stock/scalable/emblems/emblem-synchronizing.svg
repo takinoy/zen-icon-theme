@@ -15,7 +15,7 @@
    height="48"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="emblem-important.svg"
+   sodipodi:docname="emblem-ubuntuone-updating.svg"
    inkscape:export-filename="/home/cedric/.icons/Tango-colors-test/16x16/emblems/emblem-default.png"
    inkscape:export-xdpi="15"
    inkscape:export-ydpi="15">
@@ -32,9 +32,9 @@
      inkscape:window-height="480"
      id="namedview50"
      showgrid="true"
-     inkscape:zoom="2.4583333"
-     inkscape:cx="-34.779662"
-     inkscape:cy="46.169486"
+     inkscape:zoom="5.1666667"
+     inkscape:cx="24"
+     inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="43"
      inkscape:window-maximized="0"
@@ -345,6 +345,13 @@
          id="feGaussianBlur3764"
          stdDeviation="0.96" />
     </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3986">
+      <feGaussianBlur
+         id="feGaussianBlur3988"
+         stdDeviation="0.87773437" />
+    </filter>
   </defs>
   <metadata
      id="metadata7">
@@ -359,13 +366,8 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="color:#000000;fill:#dc0000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 17.837687,0.30508467 c 0,9.84884233 0,14.76538633 0,23.84745733 3.843802,0 8.783636,0 12.225143,0 0.235985,-4.292157 0,-17.0338975 0,-23.84745733 -3.795948,0 -8.71791,0 -12.225143,0 z"
-     id="path3035"
-     inkscape:connector-curvature="0" />
-  <path
-     style="color:#000000;fill:#dc0000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 18.280877,29.525424 C 17.837687,33.882353 17.81648,38.48872 17.837687,42 c 4.075047,0 8.150095,0 12.225143,0 0,-4.469736 0.235985,-7.819541 0,-12.176471 -4.075048,0 -8.620788,-0.288628 -11.781953,-0.298105 z"
-     id="rect3734"
-     inkscape:connector-curvature="0" />
+     style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+     id="Symbol"
+     inkscape:connector-curvature="0"
+     d="M 24.1625,6 C 14.594377,5.9999976 6.787476,13.564069 6.20625,23.095891 l -5.60625,0 9.01875,13.643836 9.01875,-13.643836 -6.41875,0 c 0.553968,-6.184163 5.684096,-11.013698 11.94375,-11.013698 2.315268,0 4.506292,0.66225 6.3375,1.808219 L 33.5875,8.7123288 C 30.846263,7.0074288 27.614212,6 24.1625,6 z m 14.21875,5.260274 -9.01875,13.643836 6.41875,0 c -0.553968,6.184162 -5.684094,11.013698 -11.94375,11.013698 -2.315268,0 -4.506291,-0.66225 -6.3375,-1.808218 l -3.0875,5.178081 C 17.153737,40.992571 20.38579,42 23.8375,42 c 9.568125,4e-6 17.375025,-7.564068 17.95625,-17.09589 l 5.60625,0 -9.01875,-13.643836 z" />
 </svg>

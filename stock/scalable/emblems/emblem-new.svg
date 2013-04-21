@@ -32,11 +32,11 @@
      inkscape:window-height="480"
      id="namedview50"
      showgrid="true"
-     inkscape:zoom="2.4583333"
-     inkscape:cx="48"
-     inkscape:cy="48"
-     inkscape:window-x="133"
-     inkscape:window-y="160"
+     inkscape:zoom="5"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:window-x="416"
+     inkscape:window-y="195"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -344,20 +344,10 @@
     </rdf:RDF>
   </metadata>
   <path
-     sodipodi:type="arc"
-     style="fill:url(#radialGradient3816);fill-opacity:1;stroke:none"
-     id="path3808"
-     sodipodi:cx="54"
-     sodipodi:cy="48"
-     sodipodi:rx="36"
-     sodipodi:ry="36"
-     d="m 90,48 a 36,36 0 1 1 -72,0 36,36 0 1 1 72,0 z"
-     transform="matrix(0.66666665,0,0,0.66666665,-11.999999,-7.9999992)" />
-  <path
      style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
      id="Symbol"
      inkscape:connector-curvature="0"
-     d="m 21,9 0,12 -12,0 0,6 12,0 0,12 6,0 0,-12 12,0 0,-6 -12,0 0,-12 z"
+     d="m 18.2,6 0,12 -12,0 -0.2,12 12,0 0,12 12,0 0,-12 12,0 0,-12 -12,0 0,-12 z"
      sodipodi:nodetypes="ccccccccccccc"
      inkscape:export-filename="/home/cedric/.icons/Tango-colors-test/16x16/emblems/emblem-default.png"
      inkscape:export-xdpi="24"
