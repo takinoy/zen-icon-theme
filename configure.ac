@@ -56,13 +56,10 @@ if test "x$enable_recolor" = "xyes"; then
             PKG_CHECK_EXISTS([GraphicsMagick >= 1.1],
                      [enable_framing=yes], [enable_framing=no]))
    if test "x$enable_recolor" = "xyes"; then
-      #~ AC_PATH_PROG(RECOLOR, "/usr/local/share/recolor/recolor.sh")
-      #~ if test -z "$RECOLOR"; then
-         #~ AC_MSG_ERROR([recolor.sh is required to build tango-colors-icon-theme])
-      #~ fi
-
-      # Add the command line options we need here
-      RECOLOR="/usr/local/share/recolor/recolor.sh"
+      AC_PATH_PROG(RECOLOR, recolor)
+      if test -z "$RECOLOR"; then
+         AC_MSG_ERROR([recolor is required to build tango-colors-icon-theme])
+      fi
       AC_SUBST(RECOLOR)
    else
       AC_MSG_ERROR([recolor.sh is required to build tango-colors-icon-theme])
