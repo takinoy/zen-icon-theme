@@ -12,9 +12,9 @@
    id="svg7384"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   height="16"
+   height="48"
    sodipodi:docname="list-add.svg"
-   width="16">
+   width="48">
   <metadata
      id="metadata90">
     <rdf:RDF>
@@ -29,7 +29,7 @@
   </metadata>
   <sodipodi:namedview
      inkscape:object-paths="true"
-     inkscape:cy="6.7554993"
+     inkscape:cy="16"
      inkscape:current-layer="layer12"
      inkscape:window-width="1024"
      pagecolor="#555753"
@@ -49,12 +49,12 @@
      inkscape:snap-global="true"
      inkscape:window-y="0"
      gridtolerance="6"
-     inkscape:zoom="32.75"
+     inkscape:zoom="15.21875"
      inkscape:window-height="728"
      borderopacity="1"
      guidetolerance="10"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:cx="9.6306753"
+     inkscape:cx="25.963129"
      inkscape:bbox-paths="false"
      inkscape:snap-grids="true"
      inkscape:pageopacity="1"
@@ -74,54 +74,55 @@
   <defs
      id="defs7386" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="status"
      style="display:inline" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="devices" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="apps" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="actions">
     <path
        inkscape:connector-curvature="0"
-       d="m 67.0002,729 0,4 -4,0 0,2 4,0 0,4 2,0 0,-4 4,0 0,-2 -4,0 0,-4 -2,0 z"
+       d="m 81.0002,703 0,12 -12,0 0,6 12,0 0,12 6,0 0,-12 12,0 0,-6 -12,0 0,-12 -6,0 z"
        id="rect31992-9"
-       style="color:#000000;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;stroke-opacity:1;opacity:0.14999999999999999;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="opacity:0.14999999999999999;color:#000000;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible" />
     <path
-       d="m 67.0002,729 0,4 -4,0 0,2 4,0 0,4 2,0 0,-4 4,0 0,-2 -4,0 0,-4 -2,0 z"
+       d="m 81.0002,703 0,12 -12,0 0,6 12,0 0,12 6,0 0,-12 12,0 0,-6 -12,0 0,-12 -6,0 z"
        id="rect31992"
-       style="color:#000000;fill:#000000;fill-opacity:0.66666669;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;fill-rule:nonzero;enable-background:accumulate;opacity:1" />
+       style="color:#000000;fill:#000000;fill-opacity:0.66666667;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="places" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="mimetypes" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="emblems"
      style="display:inline" />
   <g
-     transform="translate(-60.0002,-726)"
+     transform="translate(-60.0002,-694)"
      inkscape:groupmode="layer"
      id="g4953"
      inkscape:label="categories"
