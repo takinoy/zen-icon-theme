@@ -16,9 +16,6 @@
    inkscape:version="0.46"
    sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/actions"
    sodipodi:docname="document-new.svg"
-   inkscape:export-filename="/home/jimmac/gfx/novell/pdes/trunk/docs/BIGmime-text.png"
-   inkscape:export-xdpi="240.00000"
-   inkscape:export-ydpi="240.00000"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
@@ -440,9 +437,6 @@
        sodipodi:rx="14.375000"
        sodipodi:ry="14.375000"
        d="M 69.375000 125.00000 A 14.375000 14.375000 0 1 1  40.625000,125.00000 A 14.375000 14.375000 0 1 1  69.375000 125.00000 z"
-       transform="matrix(0.783292,0.000000,0.000000,0.783292,-6.340883,-86.65168)"
-       inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/stock_new-16.png"
-       inkscape:export-xdpi="33.852203"
-       inkscape:export-ydpi="33.852203" />
+       transform="matrix(0.783292,0.000000,0.000000,0.783292,-6.340883,-86.65168)" />
   </g>
 </svg>

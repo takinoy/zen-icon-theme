@@ -16,9 +16,6 @@
    inkscape:version="0.46"
    sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/places"
    sodipodi:docname="folder.svg"
-   inkscape:export-filename="/home/jimmac/Desktop/horlander-style3.png"
-   inkscape:export-xdpi="90.000000"
-   inkscape:export-ydpi="90.000000"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
@@ -388,10 +385,7 @@
     <g
        style="stroke-miterlimit:4.0000000;stroke-width:0.99946535;stroke:none;fill-rule:nonzero;fill-opacity:0.75706214;fill:#ffffff"
        id="g220"
-       transform="matrix(1.040764,0.000000,5.449252e-2,1.040764,-8.670199,2.670594)"
-       inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/gnome-fs-directory.png"
-       inkscape:export-xdpi="74.800003"
-       inkscape:export-ydpi="74.800003">
+       transform="matrix(1.040764,0.000000,5.449252e-2,1.040764,-8.670199,2.670594)">
       <path
          style="fill-opacity:0.50847459;fill:#ffffff"
          d="M 42.417183,8.5151772 C 42.422267,8.4180642 42.289022,8.2681890 42.182066,8.2681716 L 29.150665,8.2660527 C 29.150665,8.2660527 30.062379,8.8540072 31.352477,8.8622963 L 42.405974,8.9333167 C 42.417060,8.7215889 42.408695,8.6772845 42.417183,8.5151772 z "
@@ -402,10 +396,7 @@
        style="color:#000000;fill:url(#linearGradient9772);fill-opacity:1.0;fill-rule:nonzero;stroke:#3465a4;stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1;visibility:visible;display:block"
        d="M 39.783532,39.510620 C 40.927426,39.466556 41.746608,38.414321 41.830567,37.189615 C 42.622354,25.640928 43.489927,15.957666 43.489927,15.957666 C 43.562082,15.710182 43.322016,15.462699 43.009787,15.462699 L 8.6386304,15.462699 C 8.6386304,15.462699 6.7883113,37.329591 6.7883113,37.329591 C 6.6737562,38.311657 6.3223038,39.134309 5.2384755,39.513304 L 39.783532,39.510620 z "
        id="path233"
-       sodipodi:nodetypes="cscccscc"
-       inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/gnome-fs-directory.png"
-       inkscape:export-xdpi="74.800003"
-       inkscape:export-ydpi="74.800003" />
+       sodipodi:nodetypes="cscccscc" />
     <path
        sodipodi:nodetypes="ccsscsc"
        id="path304"

@@ -16,9 +16,6 @@
    inkscape:version="0.46"
    sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/places"
    sodipodi:docname="user-home.svg"
-   inkscape:export-filename="/home/jimmac/Desktop/horlander-style3.png"
-   inkscape:export-xdpi="90.000000"
-   inkscape:export-ydpi="90.000000"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
@@ -430,9 +427,6 @@
       <g
          inkscape:r_cy="true"
          inkscape:r_cx="true"
-         inkscape:export-ydpi="74.800003"
-         inkscape:export-xdpi="74.800003"
-         inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/gnome-fs-directory.png"
          transform="matrix(1.053404,0,5.515434e-2,1.040068,-9.163336,2.458743)"
          id="g220"
          style="fill:#ffffff;fill-opacity:0.75706213;fill-rule:nonzero;stroke:none;stroke-width:0.99946535;stroke-miterlimit:4">
@@ -485,9 +479,6 @@
        d="M 39.783532,39.51062 C 40.927426,39.466556 41.746608,38.414321 41.830567,37.189615 C 42.622354,25.640928 43.489927,15.957666 43.489927,15.957666 C 43.562082,15.710182 43.322016,15.462699 43.009787,15.462699 L 8.6386304,15.462699 C 8.6386304,15.462699 6.7883113,37.329591 6.7883113,37.329591 C 6.6737562,38.311657 6.3223038,39.134309 5.2384755,39.513304 L 39.783532,39.51062 z "
        id="path233"
        sodipodi:nodetypes="cscccscc"
-       inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/gnome-fs-directory.png"
-       inkscape:export-xdpi="74.800003"
-       inkscape:export-ydpi="74.800003"
        transform="matrix(0.993091,0,0,0.997896,0.297717,6.983205e-2)"
        inkscape:r_cx="true"
        inkscape:r_cy="true" />
@@ -515,9 +506,6 @@
        inkscape:r_cx="true"
        inkscape:r_cy="true" />
     <g
-       inkscape:export-ydpi="74.800003"
-       inkscape:export-xdpi="74.800003"
-       inkscape:export-filename="/home/jimmac/ximian_art/icons/nautilus/suse93/gnome-fs-directory.png"
        style="opacity:0.41477272;fill:url(#linearGradient11003);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-miterlimit:4"
        transform="matrix(1.040764,0.000000,5.449252e-2,1.365642,-8.358528,0.921788)"
        id="g217" />

@@ -15,10 +15,7 @@
    height="48"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="emblem-new.svg"
-   inkscape:export-filename="/home/cedric/.icons/Tango-colors-test/16x16/emblems/emblem-default.png"
-   inkscape:export-xdpi="15"
-   inkscape:export-ydpi="15">
+   sodipodi:docname="emblem-new.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -348,8 +345,5 @@
      id="Symbol"
      inkscape:connector-curvature="0"
      d="m 18.2,6 0,12 -12,0 -0.2,12 12,0 0,12 12,0 0,-12 12,0 0,-12 -12,0 0,-12 z"
-     sodipodi:nodetypes="ccccccccccccc"
-     inkscape:export-filename="/home/cedric/.icons/Tango-colors-test/16x16/emblems/emblem-default.png"
-     inkscape:export-xdpi="24"
-     inkscape:export-ydpi="24" />
+     sodipodi:nodetypes="ccccccccccccc" />
 </svg>
