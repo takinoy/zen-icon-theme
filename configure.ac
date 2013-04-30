@@ -115,9 +115,9 @@ if test -z "$SVGCONVERT"; then
   AC_MSG_ERROR([You need librsvg >= 2.12.3 or ksvgtopng installed build the package])
 fi
 
-LARGE_SIZES=''
+LARGE_SIZES='48x48 64x64 128x128'
 if test "x$enable_large_bitmaps" = "xyes"; then
-    LARGE_SIZES="48x48 64x64 72x72 96x96 128x128"
+    LARGE_SIZES="48x48 64x64 128x128"
 fi
 
 AC_SUBST(SVGCONVERT)

@@ -27,7 +27,7 @@ endif
 # we don't want to install mo files, all translations are already stored
 # in theme files
 install-data-local:
-	for size in 16x16 22x22 32x32; do \
+	for size in 16x16 22x22 32x32 $(LARGE_SIZES); do \
 		echo -e "Copying icons files for $$size..."; \
 		for dir in `find $$size -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$dir; \
