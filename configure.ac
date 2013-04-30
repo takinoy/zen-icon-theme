@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([tango-colors-icon-theme], [0.1.0])
+AC_INIT([zen-icon-theme], [0.1.0])
 AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar -Wno-portability ])
@@ -24,7 +24,7 @@ AC_SUBST(localedir)
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
 # Define the toplevel path here
-AC_SUBST(themedir, "\${datadir}/icons/Tango-colors")
+AC_SUBST(themedir, "\${datadir}/icons/Zen")
 
 UTILS_REQUIRED=0.8.90
 
@@ -39,7 +39,7 @@ if test "x$have_utils" = "xyes"; then
 else
    AC_MSG_RESULT([no])
    AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
-                 and install tango-colors-icon-theme])
+                 and install zen-icon-theme])
 fi
 
 # recolor icons
@@ -58,11 +58,11 @@ if test "x$enable_recolor" = "xyes"; then
    if test "x$enable_recolor" = "xyes"; then
       AC_PATH_PROG(RECOLOR, recolor)
       if test -z "$RECOLOR"; then
-         AC_MSG_ERROR([recolor is required to build tango-colors-icon-theme])
+         AC_MSG_ERROR([recolor is required to build zen-icon-theme])
       fi
       AC_SUBST(RECOLOR)
    else
-      AC_MSG_ERROR([recolor.sh is required to build tango-colors-icon-theme])
+      AC_MSG_ERROR([recolor.sh is required to build zen-icon-theme])
    fi
 fi
 
@@ -83,7 +83,7 @@ if test "x$enable_framing" = "xyes"; then
    if test "x$enable_framing" = "xyes"; then
       AC_PATH_PROG(CONVERT, convert)
       if test -z "$CONVERT"; then
-      	 AC_MSG_ERROR([ImageMagick is required to build tango-colors-icon-theme])
+      	 AC_MSG_ERROR([ImageMagick is required to build zen-icon-theme])
       fi
 
       # Add the command line options we need here
@@ -91,7 +91,7 @@ if test "x$enable_framing" = "xyes"; then
       AC_SUBST(CONVERT)
       FRAMING_SIZE="24x24"
    else
-      AC_MSG_ERROR([ImageMagick is required to build tango-colors-icon-theme])
+      AC_MSG_ERROR([ImageMagick is required to build zen-icon-theme])
    fi
 fi
 

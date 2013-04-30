@@ -1,0 +1,11 @@
+# Changelog :
+
+0.2
+- add dark and dark-panel variants
+- customize some icons and fix issues.
+- update makefile to create icons from svg sources and build package.
+
+0.1
+- add recolor function (need recolor submodule).
+- add icons from various sources (Tango, Faenza, elementary, ubo... ).
+- initial version build from Tango-icon-theme.

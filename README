@@ -1,9 +1,13 @@
-Tango Colors Icon Theme
------------------------
+# Zen Icon Theme
 
-This is an icon theme based on Tango Icon Theme and Faenza...
-Currently it depends on Imagemagick for creation of 24x24 bitmaps by adding a 1px padding around the 22x22px version. For GNOME and KDE you will also need icon-naming-utils that allow the theme to work in these environments before they follow the new naming scheme [2].
+A icon theme based on Tango folders with recolored option and some parts of Faenza, gnome, ubo icons, elementary...
 
+Depends on :
+- gnome-icon-theme.
 
-[1] http://tango-project.org/Tango_Icon_Theme_Guidelines
-[2] http://tango-project.org/Standard_Icon_Naming_Specification
+Dependencies for build :
+- Imagemagick for creation of 24x24 bitmaps. 
+- Recolor script to recolor icons.
+- icon-naming-utils to allow the theme to work in GNOME and KDE before they follow the new naming scheme [1].
+
+[1] http://tango-project.org/Standard_Icon_Naming_Specification

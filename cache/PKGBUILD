@@ -1,6 +1,6 @@
 # Maintainer: Cedric Leporcq <cedric at gmail dot com>
 
-pkgname=tango-colors-icon-theme
+pkgname=zen-icon-theme
 pkgver='head'
 pkgrel=1
 pkgdesc="A icon theme based on Tango folders with recolored option and some parts of Faenza, gnome, ubo icons, elementary..."

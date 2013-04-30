@@ -1,4 +1,4 @@
-themedir = ${datadir}/icons/Tango-colors-dark-panel
+themedir = ${datadir}/icons/Zen-dark-panel
 
 THEME_IN_FILES = index.theme.in
 

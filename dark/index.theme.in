@@ -1,7 +1,7 @@
 [Icon Theme]
-_Name=Tango-colors-dark
-_Comment=Tango-colors Icon Theme (dark)
-Inherits=Tango-colors-dark-panel
+_Name=Zen-dark
+_Comment=Zen Icon Theme (dark)
+Inherits=Zen-dark-panel
 Example=folder
 
 # KDE Specific Stuff

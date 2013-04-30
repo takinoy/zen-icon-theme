@@ -1,4 +1,4 @@
-themedir = ${datadir}/icons/Tango-colors-dark
+themedir = ${datadir}/icons/Zen-dark
 
 THEME_IN_FILES = index.theme.in
 
