@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,7 +41,7 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="4.9166667"
-     inkscape:cx="24"
+     inkscape:cx="-13.525423"
      inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="28"
@@ -61,11 +61,11 @@
          id="g3853"
          style="stroke:#ffffff;stroke-width:2.020338;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
         <path
-           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.14999999999999999;color:#000000;fill:none;stroke:#ffffff;stroke-width:6.00008241;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:1;color:#000000;fill:none;stroke:#ffffff;stroke-width:6.00008241000000009;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
            d="m 33.625,11.9375 a 2.4337523,2.4337519 0 0 0 -0.34375,0.03125 2.4337523,2.4337519 0 0 0 -1.5,0.75 l -7.8125,7.8125 -7.84375,-7.8125 a 2.4337523,2.4337519 0 0 0 -1.96875,-0.75 2.4337523,2.4337519 0 0 0 -1.46875,4.1875 l 7.84375,7.8125 -7.84375,7.875 a 2.4640484,2.4640479 0 0 0 3.53125,3.4375 l 7.8125,-7.8125 7.84375,7.8125 a 2.4337523,2.4337519 0 1 0 3.4375,-3.4375 l -7.84375,-7.8125 7.84375,-7.875 A 2.4337523,2.4337519 0 0 0 33.625,11.9375 z"
-           transform="matrix(0.33671834,0,0,0.33671841,-0.0812401,-0.31284257)"
            id="path3173-6"
-           inkscape:connector-curvature="0" />
+           inkscape:connector-curvature="0"
+           transform="matrix(0.33671834,0,0,0.33671841,-0.0812401,-0.31284257)" />
       </g>
     </g>
   </g>

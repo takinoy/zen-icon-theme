@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,7 +41,7 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="4.9166667"
-     inkscape:cx="24"
+     inkscape:cx="-13.525424"
      inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -61,7 +61,7 @@
          id="g3853"
          style="stroke:#ffffff;stroke-opacity:1;stroke-width:0.67343675;stroke-miterlimit:4;stroke-dasharray:none">
         <path
-           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.99999999000000006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.15"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.99999999000000006;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
            d="M 33.625 11.9375 A 2.4337523 2.4337519 0 0 0 33.28125 11.96875 A 2.4337523 2.4337519 0 0 0 31.78125 12.71875 L 23.96875 20.53125 L 16.125 12.71875 A 2.4337523 2.4337519 0 0 0 14.15625 11.96875 A 2.4337523 2.4337519 0 0 0 12.6875 16.15625 L 20.53125 23.96875 L 12.6875 31.84375 A 2.4611502 2.4611497 0 0 0 16.21875 35.28125 L 24.03125 27.46875 L 31.875 35.28125 A 2.4337523 2.4337519 0 1 0 35.3125 31.84375 L 27.46875 24.03125 L 35.3125 16.15625 A 2.4337523 2.4337519 0 0 0 33.625 11.9375 z "
            transform="matrix(0.33671834,0,0,0.33671841,-0.0812401,-0.31284257)"
            id="path3173-6" />
