@@ -6,8 +6,6 @@ THEME_IN_FILES = index.theme.in
 
 theme_DATA = index.theme
 
-RECOLOR_PATHS=($(cat dark-panel.lst))
-
 EXTRA_DIST=				\
 	$(THEME_IN_FILES)
 

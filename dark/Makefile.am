@@ -6,8 +6,6 @@ THEME_IN_FILES = index.theme.in
 
 theme_DATA = index.theme
 
-RECOLOR_PATHS=($(cat dark.lst))
-
 EXTRA_DIST=				\
 	$(THEME_IN_FILES)
 
@@ -31,7 +29,7 @@ install-data-local:
 		cd ..; \
 	done; \
 	for size_svg in 48x48; do \
-		echo -e "Copying $$size_svg icons to scalable png..."; \
+		echo -e "Copying $$size_svg icons to scalable..."; \
 		cd $$size_svg && \
 			for dir in `find * -type d`; do \
 				$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$dir; \

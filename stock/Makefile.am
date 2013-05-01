@@ -27,8 +27,8 @@ install-data-local:
 		cd ..; \
 	done; \
 	for size_svg in 96x96; do \
-		cd $$size_svg && \
 		echo -e "Converting $$size_svg svg icons to 32x32 png..."; \
+		cd $$size_svg && \
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/32x32/$$dir; \
 		done; \
@@ -39,7 +39,7 @@ install-data-local:
 		cd ..; \
 	done; \
 	for size_svg in scalable 48x48 96x96; do \
-		echo -e "Copying $$size_svg icons to scalable png..."; \
+		echo -e "Copying $$size_svg icons to scalable..."; \
 		cd $$size_svg && \
 			for dir in `find * -type d`; do \
 				$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$dir; \

@@ -1,7 +1,9 @@
 DISTCHECK_CONFIGURE_FLAGS = --disable-icon-framing --enable-png-creation \
 --enable-icon-recolor
 
-SUBDIRS = dark dark-panel stock po
+MAINDIR = Zen
+VARIANTS = dark dark-panel
+SUBDIRS = $(VARIANTS) stock po
 
 THEME_IN_FILES = index.theme.in
 
@@ -72,8 +74,8 @@ if ENABLE_LARGE_BITMAPS
 		cd ..; \
 	done;
 endif
-	if [ $(ICONMAP) != "false" ]; then \
 	cd $(DESTDIR)$(themedir); \
+	if [ $(ICONMAP) != "false" ]; then \
 	for size in 16x16 22x22 $(FRAMING_SIZE) 32x32 scalable $(LARGE_SIZES); do \
 		cd $$size || continue; \
 		echo -e "Set up icon mapping for $$size..."; \
@@ -86,6 +88,43 @@ endif
 		cd ..; \
 	done; \
 	fi; \
+	for var in $(VARIANTS); do \
+		icons_paths=`cat $(abs_top_builddir)/$$var/$$var.lst`; \
+		for size in 16x16 22x22 $(FRAMING_SIZE) 32x32 $(LARGE_SIZES); do \
+			cd $$size || continue; \
+			echo -e "link $(MAINDIR) to $(MAINDIR)-$$var for $$size..."; \
+			for icon_path in $$icons_paths; do \
+				if [[ -f $$icon_path.png ]] && \
+				[[ ! -f ../../$(MAINDIR)-$$var/$$size/$$icon_path.png ]];then \
+				$(mkdir_p) ../../$(MAINDIR)-$$var/$$size/$${icon_path%/*}; \
+				ln -sr $$icon_path.png \
+				../../$(MAINDIR)-$$var/$$size/$$icon_path.png; \
+				links=`find -L * -samefile $$icon_path.png -xtype l`; \
+					if [[ $$links != '' ]]; then \
+					cp -P $$links \
+					../../$(MAINDIR)-$$var/$$size/$${icon_path%/*}; \
+					fi; \
+				fi; \
+			done; \
+			cd ..; \
+		done; \
+		cd scalable || continue; \
+		echo -e "link $(MAINDIR) to $(MAINDIR)-$$var for scalable..."; \
+		for icon_path in $$icons_paths; do \
+			if [[ -f $$icon_path.svg ]] && \
+			[[ ! -f ../../$(MAINDIR)-$$var/scalable/$$icon_path.svg ]];then \
+			$(mkdir_p) ../../$(MAINDIR)-$$var/scalable/$${icon_path%/*}; \
+			ln -sr $$icon_path.svg \
+			../../$(MAINDIR)-$$var/scalable/$$icon_path.svg; \
+			links=`find -L * -samefile $$icon_path.svg -xtype l`; \
+				if [[ $$links != '' ]]; then \
+				cp -P $$links \
+				../../$(MAINDIR)-$$var/scalable/$${icon_path%/*}; \
+				fi; \
+			fi; \
+		done; \
+		cd ..; \
+	done; \
 	$(MAKE) -C $(abs_top_builddir)/po uninstall; \
 	if [ -h $(DESTDIR)$(themedir) ]; then \
 		rm -f $(DESTDIR)$(themedir); \

@@ -4,7 +4,6 @@ status/audio-volume-high
 status/audio-volume-low
 status/audio-volume-medium
 status/audio-volume-muted
-status/audio-volume-muted-red
 status/bluetooth-active
 status/bluetooth-disabled
 status/bluetooth-paired
