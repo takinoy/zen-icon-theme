@@ -1,20 +1,7 @@
 
 install-data-local:
 	for size in 16x16 22x22 32x32; do \
-		echo -e "Converting svg icons files to png for size $$size..."; \
-		cd scalable && \
-		for dir in `find * -type d`; do \
-			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
-		done; \
-		for icon in `find * -name "*.svg"`; do \
-			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
-			i=$${size%x*}; \
-			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
-		done; \
-		cd ..; \
-	done; \
-	for size in 16x16 22x22 32x32; do \
-		echo -e "Converting svg icons files to png for size $$size (Faenza)..."; \
+		echo -e "Converting $$size svg icons to $$size png..."; \
 		cd $$size && \
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
@@ -26,9 +13,22 @@ install-data-local:
 		done; \
 		cd ..; \
 	done; \
+	for size in 16x16 22x22 32x32; do \
+		echo -e "Converting scalable svg icons to $$size png..."; \
+		cd scalable && \
+		for dir in `find * -type d`; do \
+			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
+		done; \
+		for icon in `find * -name "*.svg"`; do \
+			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
+			i=$${size%x*}; \
+			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
+		done; \
+		cd ..; \
+	done; \
 	for size_svg in 96x96; do \
 		cd $$size_svg && \
-		echo -e "Converting svg icons files to png for size $$size..."; \
+		echo -e "Converting $$size_svg svg icons to 32x32 png..."; \
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/32x32/$$dir; \
 		done; \
@@ -39,7 +39,7 @@ install-data-local:
 		cd ..; \
 	done; \
 	for size_svg in scalable 48x48 96x96; do \
-		echo -e "Copying $$size_svg icons files for scalable..."; \
+		echo -e "Copying $$size_svg icons to scalable png..."; \
 		cd $$size_svg && \
 			for dir in `find * -type d`; do \
 				$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$dir; \

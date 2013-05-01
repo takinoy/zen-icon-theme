@@ -16,20 +16,7 @@ install-data-local:
 	echo -e "Make dark-panel icons files..."; \
 	$(RECOLOR) ../stock -negate -modulate 92 -p dark-panel.dat "."; \
 	for size in 16x16 22x22; do \
-		echo -e "Converting svg icons files to png for size $$size..."; \
-		cd scalable && \
-		for dir in `find * -type d`; do \
-			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
-		done; \
-		for icon in `find * -name "*.svg"`; do \
-			pngpath="$(DESTDIR)$(themedir)/$$size/$${icon%.*}.png"; \
-			i=$${size%x*}; \
-			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
-		done; \
-		cd ..; \
-	done; \
-	for size in 16x16 22x22; do \
-		echo -e "Converting svg icons files to png for size $$size (Faenza)..."; \
+		echo -e "Converting $$size svg icons to $$size png..."; \
 		cd $$size && \
 		for dir in `find * -type d`; do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$dir; \
@@ -39,18 +26,6 @@ install-data-local:
 			i=$${size%x*}; \
 			$(SVGCONVERT) $$icon -w $$i -h $$i -o $$pngpath; \
 		done; \
-		cd ..; \
-	done; \
-	for size_svg in scalable; do \
-		echo -e "Copying icons files for scalable..."; \
-		cd $$size_svg && \
-			for dir in `find * -type d`; do \
-				$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$dir; \
-			done; \
-			for icon in `find * -name "*.svg"`; do \
-				$(install_sh_DATA) \
-				$$icon $(DESTDIR)$(themedir)/scalable/$$icon; \
-			done; \
 		cd ..; \
 	done;
 if ENABLE_ICON_FRAMING

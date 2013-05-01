@@ -13,7 +13,7 @@ CREF_OUT='#A8A8A8'
 
 # paths for images to colorize
 PNG_SUBDIRS=()
-SVG_SUBDIRS=(16x16 22x22 32x32 48x48 scalable)
+SVG_SUBDIRS=(16x16 22x22 32x32 48x48)
 
 RECOLOR_PATHS=(
 actions/application-exit \

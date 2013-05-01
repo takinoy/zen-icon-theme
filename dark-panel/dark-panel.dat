@@ -13,7 +13,7 @@ CREF_OUT='#ebebeb'
 
 # paths for images to colorize
 PNG_SUBDIRS=()
-SVG_SUBDIRS=(16x16 22x22 scalable)
+SVG_SUBDIRS=(16x16 22x22)
 
 RECOLOR_PATHS=(
 status/appointment-missed \
