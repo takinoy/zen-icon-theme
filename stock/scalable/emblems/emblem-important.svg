@@ -355,6 +355,10 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
   <path
      style="color:#000000;fill:#dc0000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 17.837687,0.30508467 c 0,9.84884233 0,14.76538633 0,23.84745733 3.843802,0 8.783636,0 12.225143,0 0.235985,-4.292157 0,-17.0338975 0,-23.84745733 -3.795948,0 -8.71791,0 -12.225143,0 z"
@@ -365,4 +369,5 @@
      d="M 18.280877,29.525424 C 17.837687,33.882353 17.81648,38.48872 17.837687,42 c 4.075047,0 8.150095,0 12.225143,0 0,-4.469736 0.235985,-7.819541 0,-12.176471 -4.075048,0 -8.620788,-0.288628 -11.781953,-0.298105 z"
      id="rect3734"
      inkscape:connector-curvature="0" />
+  </g>
 </svg>

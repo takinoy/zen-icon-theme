@@ -362,16 +362,21 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     style="color:#000000;fill:#ad0707;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 24,6 C 14.058875,6 6,14.058875 6,24 6,33.941125 14.058875,42 24,42 33.941125,42 42,33.941125 42,24 42,14.058875 33.941125,6 24,6 z"
-     id="path3407" />
-  <path
-     style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 24,10.5 c 7.455847,0 13.5,6.044157 13.5,13.5 0,7.455843 -6.044153,13.5 -13.5,13.5 -7.455842,0 -13.5,-6.044157 -13.5,-13.5 0,-7.455843 6.044158,-13.5 13.5,-13.5 z"
-     id="path3405" />
-  <path
-     style="color:#000000;fill:#ad0707;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 23.859375,12.75 C 22.698411,12.75 21.75,13.698412 21.75,14.859375 l 0,9.281251 c 0,1.160964 0.948411,2.109374 2.109375,2.109374 0.0481,0.0029 0.09175,0 0.140625,0 l 0.140626,0 7.734374,0 c 1.2465,0 2.25,-1.0035 2.25,-2.25 0,-1.2465 -1.0035,-2.25 -2.25,-2.25 l -5.625,0 0,-6.890625 C 26.25,13.698412 25.30159,12.75 24.140626,12.75 l -0.281251,0 z"
-     id="path3716" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#ad0707;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 24,6 C 14.058875,6 6,14.058875 6,24 6,33.941125 14.058875,42 24,42 33.941125,42 42,33.941125 42,24 42,14.058875 33.941125,6 24,6 z"
+       id="path3407" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 24,10.5 c 7.455847,0 13.5,6.044157 13.5,13.5 0,7.455843 -6.044153,13.5 -13.5,13.5 -7.455842,0 -13.5,-6.044157 -13.5,-13.5 0,-7.455843 6.044158,-13.5 13.5,-13.5 z"
+       id="path3405" />
+    <path
+       style="color:#000000;fill:#ad0707;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 23.859375,12.75 C 22.698411,12.75 21.75,13.698412 21.75,14.859375 l 0,9.281251 c 0,1.160964 0.948411,2.109374 2.109375,2.109374 0.0481,0.0029 0.09175,0 0.140625,0 l 0.140626,0 7.734374,0 c 1.2465,0 2.25,-1.0035 2.25,-2.25 0,-1.2465 -1.0035,-2.25 -2.25,-2.25 l -5.625,0 0,-6.890625 C 26.25,13.698412 25.30159,12.75 24.140626,12.75 l -0.281251,0 z"
+       id="path3716" />
+  </g>
 </svg>

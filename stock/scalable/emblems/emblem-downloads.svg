@@ -362,10 +362,15 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
-     id="Symbol"
-     inkscape:connector-curvature="0"
-     d="m 18.157129,6 0,3.2727273 11.895247,0 0,-3.2727273 z m 0,6.545455 0,6.545454 11.895247,0 0,-6.545454 z m 0,9.818181 L 17.955515,28.85362 12.000001,28.712617 24.104753,42 36,28.909091 l -5.947624,0 0,-6.545455 z"
-     sodipodi:nodetypes="cccccccccccccccccc" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="Symbol"
+       inkscape:connector-curvature="0"
+       d="m 18.157129,6 0,3.2727273 11.895247,0 0,-3.2727273 z m 0,6.545455 0,6.545454 11.895247,0 0,-6.545454 z m 0,9.818181 L 17.955515,28.85362 12.000001,28.712617 24.104753,42 36,28.909091 l -5.947624,0 0,-6.545455 z"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+  </g>
 </svg>

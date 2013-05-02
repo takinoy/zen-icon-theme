@@ -340,10 +340,15 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
-     id="Symbol"
-     inkscape:connector-curvature="0"
-     d="m 18.2,6 0,12 -12,0 -0.2,12 12,0 0,12 12,0 0,-12 12,0 0,-12 -12,0 0,-12 z"
-     sodipodi:nodetypes="ccccccccccccc" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="Symbol"
+       inkscape:connector-curvature="0"
+       d="m 18.2,6 0,12 -12,0 -0.2,12 12,0 0,12 12,0 0,-12 12,0 0,-12 -12,0 0,-12 z"
+       sodipodi:nodetypes="ccccccccccccc" />
+  </g>
 </svg>

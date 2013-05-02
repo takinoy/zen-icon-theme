@@ -362,9 +362,14 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     inkscape:connector-curvature="0"
-     style="color:#000000;fill:#f3840c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="path3649-9"
-     d="M 35.116408,41.142857 23.994062,35.282575 12.867184,41.134218 14.996599,28.731919 6,19.944481 18.438395,18.13972 24.005071,6.8571426 29.563007,18.144038 42,19.958459 32.996598,28.738904 z" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#f3840c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3649-9"
+       d="M 35.116408,41.142857 23.994062,35.282575 12.867184,41.134218 14.996599,28.731919 6,19.944481 18.438395,18.13972 24.005071,6.8571426 29.563007,18.144038 42,19.958459 32.996598,28.738904 z" />
+  </g>
 </svg>

@@ -362,10 +362,15 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <path
-     style="color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.68092889;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     id="path2928"
-     inkscape:connector-curvature="0"
-     d="m 24.802329,3.3346249 0,4.1358619 0,4.1358642 0,19.322232 c -2.335177,-0.858965 -5.273822,-0.938679 -8.195527,0 -5.269003,1.692817 -8.3774811,5.944071 -6.8869985,9.564183 1.4904845,3.620112 6.9898545,5.182452 12.2588575,3.489634 4.31162,-1.38523 7.842563,-5.072823 7.913584,-8.150229 0.005,-0.213236 0,0 0,0 l 0,-20.995176 c 3.875362,2.309356 8.213351,5.81952 8.133119,15.380736 C 41.29045,11.345149 31.071292,13.383662 24.802329,3.3346249 z"
-     sodipodi:nodetypes="ccccsssccccc" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.68092889;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2928"
+       inkscape:connector-curvature="0"
+       d="m 24.802329,3.3346249 0,4.1358619 0,4.1358642 0,19.322232 c -2.335177,-0.858965 -5.273822,-0.938679 -8.195527,0 -5.269003,1.692817 -8.3774811,5.944071 -6.8869985,9.564183 1.4904845,3.620112 6.9898545,5.182452 12.2588575,3.489634 4.31162,-1.38523 7.842563,-5.072823 7.913584,-8.150229 0.005,-0.213236 0,0 0,0 l 0,-20.995176 c 3.875362,2.309356 8.213351,5.81952 8.133119,15.380736 C 41.29045,11.345149 31.071292,13.383662 24.802329,3.3346249 z"
+       sodipodi:nodetypes="ccccsssccccc" />
+  </g>
 </svg>
