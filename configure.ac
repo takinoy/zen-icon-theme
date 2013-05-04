@@ -127,7 +127,7 @@ AC_SUBST(LARGE_SIZES)
 AC_CONFIG_FILES([
 data/folders.dat
 Makefile
-stock/Makefile
+src/Makefile
 dark/Makefile
 dark-panel/Makefile
 po/Makefile.in

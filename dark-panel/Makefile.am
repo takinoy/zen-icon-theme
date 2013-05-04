@@ -14,7 +14,7 @@ install-data-am: install-data-local install-themeDATA
 
 install-data-local:
 	echo -e "Make dark-panel icons files..."; \
-	$(RECOLOR) ../stock -negate -modulate 92 -p dark-panel.dat "."; \
+	$(RECOLOR) ../src -negate -modulate 92 -p dark-panel.dat "."; \
 	for size in 16x16 22x22; do \
 		echo -e "Converting $$size svg icons to $$size png..."; \
 		cd $$size && \

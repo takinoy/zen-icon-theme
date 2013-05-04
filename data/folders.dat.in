@@ -33,7 +33,7 @@ status/folder-drag-accept
 status/folder-open
 )
 
-PART2_DIR=@abs_top_builddir@/stock
+PART2_DIR=@abs_top_builddir@/src
 COMPOSITE_PATHS=(actions/folder-new)
 PART1_PATHS=(places/folder)
 PART2_PATHS=(flash_folder)

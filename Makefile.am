@@ -3,7 +3,7 @@ DISTCHECK_CONFIGURE_FLAGS = --disable-icon-framing --enable-png-creation \
 
 MAINDIR = Zen
 VARIANTS = dark dark-panel
-SUBDIRS = $(VARIANTS) stock po
+SUBDIRS = $(VARIANTS) src po
 
 THEME_IN_FILES = index.theme.in
 
