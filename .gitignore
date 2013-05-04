@@ -27,4 +27,4 @@ stamp-it
 svg2png.sh
 
 # exception
-!cache/PKGBUILD
+!cache/PKGBUILD.in

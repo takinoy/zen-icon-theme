@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([zen-icon-theme], [0.1.0])
+AC_INIT([zen-icon-theme], [0.2.0])
 AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar -Wno-portability ])
@@ -125,11 +125,12 @@ AC_SUBST(FRAMING_SIZE)
 AC_SUBST(LARGE_SIZES)
 
 AC_CONFIG_FILES([
+cache/PKGBUILD
 data/folders.dat
-Makefile
-src/Makefile
 dark/Makefile
 dark-panel/Makefile
+Makefile
+src/Makefile
 po/Makefile.in
 ])	
 
