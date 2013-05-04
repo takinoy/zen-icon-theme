@@ -85,9 +85,17 @@ endif
 				$(ICONMAP) -c $$context; \
 			fi; \
 		done; \
+		cd status && while read icons; do \
+		set $$icons; isrc=$$1; shift; \
+		for icon; do \
+		if [[ $$size == 'scalable' ]]; then \
+		ln -sr $$isrc.svg $$icon.svg; \
+		else ln -sr $$isrc.png $$icon.png; fi \
+		done; \
+		done < $(abs_top_builddir)/src/status.lst; \
+		cd ..; \
 		cd ..; \
 	done; \
-	fi; \
 	for var in $(VARIANTS); do \
 		icons_paths=`cat $(abs_top_builddir)/$$var/$$var.lst`; \
 		for size in 16x16 22x22 $(FRAMING_SIZE) 32x32 $(LARGE_SIZES); do \
@@ -125,6 +133,7 @@ endif
 		done; \
 		cd ..; \
 	done; \
+	fi; \
 	$(MAKE) -C $(abs_top_builddir)/po uninstall; \
 	if [ -h $(DESTDIR)$(themedir) ]; then \
 		rm -f $(DESTDIR)$(themedir); \

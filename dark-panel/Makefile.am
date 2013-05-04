@@ -51,6 +51,15 @@ endif
 				$(ICONMAP) -c $$context; \
 			fi; \
 		done; \
+		cd status && while read icons; do \
+		set $$icons; isrc=$$1; shift; \
+		for icon; do \
+		if [[ $$size == 'scalable' ]]; then \
+		ln -sr $$isrc.svg $$icon.svg; \
+		else ln -sr $$isrc.png $$icon.png; fi \
+		done; \
+		done < $(abs_top_builddir)/src/status.lst; \
+		cd ..; \
 		cd ..; \
 	done; \
 	fi;
