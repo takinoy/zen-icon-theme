@@ -1,13 +1,15 @@
 # Zen Icon Theme
 
-A icon theme based on Tango folders with recolored option and some parts of Faenza, gnome, ubo icons, elementary...
+A icon theme based on Tango recolored folders and some parts of Faenza, gnome, ubo icons, elementary...
 
 Depends on :
 - gnome-icon-theme.
 
+Variants :
+- Zen-dark-panel for dark panel.
+- Zen-dark for dark themes.
+
 Dependencies for build :
 - Imagemagick for creation of 24x24 bitmaps. 
 - Recolor script to recolor icons.
-- icon-naming-utils to allow the theme to work in GNOME and KDE before they follow the new naming scheme [1].
-
-[1] http://tango-project.org/Standard_Icon_Naming_Specification
+- icon-naming-utils to make alias.

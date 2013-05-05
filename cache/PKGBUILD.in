@@ -3,7 +3,7 @@
 pkgname=@PACKAGE_NAME@
 pkgver=@PACKAGE_VERSION@
 pkgrel=1
-pkgdesc="A icon theme based on Tango folders with recolored option and some parts of Faenza, gnome, ubo icons, elementary..."
+pkgdesc="A icon theme based on Tango folders that can be recolored and some parts of Faenza, gnome, ubo icons, elementary..."
 arch=('any')
 url=""
 license=('GPL3')
